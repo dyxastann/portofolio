@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alur_1_Lokasi8_8">
+        <item>start</item>
+        <item>skipif_chara5_biggerthan_0</item>
+        <item>chara5</item>
+        <item>Ruang 2.14 dimana ya?!</item>
+        <item>Bisa-bisa, aku, Anthony Sinaga, bisa telat masuk kelas.</item>
+        <item>chara5_addMet</item>
+        <item>chara5end</item>
+        <item>(Sepertinya namanya \'Anthony Sinaga\'.)</item>
+        <item>(Kamu memberitahukan arah ke \'Ruang 2.14\' padanya.)</item>
+        <item>chara5</item>
+        <item>&#8230;</item>
+        <item>Disana ternyata.</item>
+        <item>chara5end</item>
+        <item>( &#8230; )</item>
+        <item>(Dia langsung pergi tanpa mengatakan sepatah kata apapun.)</item>
+        <item>skipifend</item>
+        <item>(Kelas akan segera dimulai.)</item>
+        <item>(Bergegaslah ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi8_9">
+        <item>start</item>
+        <item>(Melihat lingkungan luar membuat pikiranmu jernih.)</item>
+        <item>(Namun tidak memberimu informasi apapun.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi8_10">
+        <item>start</item>
+        <item>(Lebih baik kamu bergegas ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi8_11">
+        <item>start</item>
+        <item>(Kamu melihat seseorang sedang melihat kearah gedung URINDO.)</item>
+        <item>chara3</item>
+        <item>Masih belum banyak yang berubah ternyata.</item>
+        <item>chara3end</item>
+        <item>( … )</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi8_12">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi8_13">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi8_14">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi8_15">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi8_16">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi8_17">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi8_7">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi8_8">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi8_9">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi8_10">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi8_11">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi8_12">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi8_13">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi8_14">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi8_15">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi8_16">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi8_17">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi8_7">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi8_8">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi8_9">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi8_10">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi8_11">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi8_12">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi8_13">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi8_14">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi8_15">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi8_16">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi8_17">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+</resources>

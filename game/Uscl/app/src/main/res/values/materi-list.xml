@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="materi_0"> ini ID materi materi_xxx
+        <item>Student-center learning.</item> ini judul materi
+        <item>materi.</item> ini tema materi
+        <item>Pada sistem pembelajaran SCL mahasiswa dituntut aktif mengerjakan tugas dan mendiskusikannya dengan dosen sebagai fasilitator.</item> ini deskripsi materi
+        <item>\nDengan aktifnya mahasiswa, maka kreativitas mahasiswa akan terpupuk. Kondisi tersebut akan mendorong dosen untuk selalu mengembangkan dan menyesuaikan materi kuliahnya dengan perkembangan Ilmu Pengetahuan dan Teknologi (IPTEK).</item>
+        <item>\nKemajuan teknologi informasi dan komunikasi yang menyediakan banyak cara untuk mendapatkan informasi sumber belajar,memberikan peluang untuk mengembangkan metode-metode pembelajaran baru secara optimal sehingga mendukung upaya mewujudkan kompentensi yang diharapkan.</item>
+        <item>\nKemajuan teknologi juga memungkinkan mahasiswa melakukan kegiatan belajar tidak hanya secara formal, tetapi belajar melalui berbagai media atau sumber.</item>
+        <item>\nDengan demikian dosen bukan lagi sebagai sumber belajar utama,melainkan sebagai “mitra pembelajaran“.</item>
+    </string-array>
+
+    <string-array name="materi_1"> ini ID materi materi_xxx
+        <item>Definisi sistem.</item> ini judul materi
+        <item>materi.</item>
+        <item>Suatu sistem adalah seperangkat (sekelompok komponen yang bekerjasama untuk mencapai tujuan melalui proses masukan (input) dan menghaslkan keluaran (output) dalam suatu proses transformasi yang terkordinasi.</item> ini deskripsi materi
+    </string-array>
+
+    <string-array name="materi_2"> ini ID materi materi_xxx
+        <item>Perbedaan data dan informasi.</item> ini judul materi
+        <item>materi.</item>
+        <item>Data merupakan deskripsi sederhana tentang sesuatu hal, kegiatan, peristiwa, yang tercatat dan disimpan, tetapi tidak disusun untuk mendapat pengertian yang spesifik.
+            \nInformasi merupakan data yang telah dikonversi menjadi sesuatu yang mempunyai arti dan bermanfaat untuk penggunanya.
+            \nDapat disimpulkan data merupakan sebuah catatan yang belum mempunyai arti dan manfaat untuk penggunanya,
+        sedangkan informasi sudah mempunyai arti dan manfaat.</item> ini deskripsi materi
+    </string-array>
+
+    <string-array name="materi_3"> ini ID materi materi_xxx
+        <item>Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis.</item> ini judul materi
+        <item>materi.</item>
+        <item>Sistem informasi dapat memberikan keunggulan dalam proses bisnis dengan cara memberikan dukungan strategi untuk keuntungan kompetitif,
+            mendukung pengambilan keputusan untuk bisnis, serta mendukung proses dan operasional bisnis.</item> ini deskripsi materi
+    </string-array>
+
+    <string-array name="materi_4"> ini ID materi materi_xxx
+        <item>5 area pengetahuan dalam sistem informasi.</item> ini judul materi
+        <item>materi.</item>
+        <item>Management challenges.
+        \nBusiness applications.
+        \nInformation technologies.
+        \nDevelopment processes.
+        \nFoundamental concepts.</item> ini deskripsi materi
+    </string-array>
+    <string-array name="materi_5">
+        <item>Wirog.</item>
+        <item>Binatang.</item>
+        <item>Wirog adalah tikus got besar berwarna hitam.
+            \nWirog dapat ditemukan di selokan (got), sawah, dan tempat kotor lainnya.
+            \nSalah satu tragedi Wirog yang jarang diketahui masyarakat adalah Misteri garpu wirog.
+            \nBila garpu dirumah anda tiba-tiba menghilang, mungkin, garpu anda digondol WIROGGG !!!</item> 47, 118,
+    </string-array>
+    <string-array name="materi_6">
+        <item>Filosofi jagung rebus.</item>
+        <item>Filosofi.</item>
+        <item>Jagung yang direbus menggunakan api besar dengan banyak air dalam panci.
+            \nDirebus selama setengah jam agar empuk sempurna.
+            \nTerasa nikmat disantap dengan saus sambal ataupun susu kental manis dan keju.</item>
+    </string-array>
+    <string-array name="materi_7">
+        <item>Visual novel.</item>
+        <item>Game.</item>
+        <item>Visual novel adalah sebuah genre game, dimana pemain menjadi seorang tokoh dalam suatu alur cerita.\n
+        Pilihan pemain dapat mengubah hasil akhir pada alur cerita.\n
+        Pada Visual novel, alur cerita disajikan secara tekstual dengan tambahan gambar ataupun suara debagai pendukung suasana lingkungan.</item>
+    </string-array>
+    <string-array name="materi_8">
+        <item>Materi malas-malasan.</item>
+        <item>Game.</item>
+        <item>M\nA\nL\nA\nS\n\nM\nA\nL\nA\nS\n\nM\nA\nL\nA\nS\n\nM\nA\nL\nA\nS.</item>
+    </string-array>
+    <string-array name="materi_9">
+        <item>Materi kesepuluh</item>
+        <item>10</item>
+        <item>SEPULUUUUHHH !!!</item>
+    </string-array>
+</resources>

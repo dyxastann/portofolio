@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alur_1_Lokasi9_8">
+        <item>start</item>
+        <item>(Kelas akan segera dimulai.)</item>
+        <item>(Bergegaslah ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi9_9">
+        <item>start</item>
+        <item>chara4</item>
+        <item>freetime</item>
+        <item>chara4end</item>
+        <item>(Kamu masih belum mendapatkan informasi mengenai SCL.)</item>
+        <item>(Bergegaslah mencari informasi tersebut.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi9_10">
+        <item>start</item>
+        <item>chara5</item>
+        <item>Malasnya..</item>
+        <item>chara5end</item>
+        <item>(Hah.?!)</item>
+        <item>(Lebih baik kamu bergegas ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi9_11">
+        <item>start</item>
+        <item>(Kamu beristirahat di \'Mading\')</item>
+        <item>chara4</item>
+        <item>DOR !!!</item>
+        <item>hahaha.</item>
+        <item>chara4end</item>
+        <item>(Dia bergegas pergi.)</item>
+        <item>( … )</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi9_12">
+        <item>start</item>0
+        <item>(Kamu melihat seseorang di \'Mading\'.)</item>
+        <item>chara8</item>
+        <item>( … )</item>
+        <item>chara8end</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Berinteraksi dengannya.</item>
+        <item>goto12</item>
+        <item>Pergi meninggalkan \'Mading\'.</item>
+        <item>goto18</item>
+        <item>quisgotoend</item>
+        <item>block</item>12
+        <item>(Kamu mencoba berinteraksi dengannya.)</item>
+        <item>chara8</item>
+        <item>freetime</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>18
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi9_13">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi9_14">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi9_15">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi9_16">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi9_17">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi9_7">
+        <item>start</item>0
+        <item>(Tidak ada orang di \'Mading\'.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Tidur hingga kelas dimulai.</item>
+        <item>goto21</item>
+        <item>Membaca artikel yang dipasang.</item>
+        <item>goto14</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto11</item>
+        <item>quisgotoend</item>10
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.</item>
+        <item>end</item>
+        <item>block</item>14
+        <item>(Terpasang artikel yang cukup menarik tentang aktivitas ORMAWA.)</item>
+        <item>(Kamu berfikir mungkin ada baiknya mengikuti salah satu ORMAWA yang ada.)</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca artikel yang ada.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>21
+        <item>(Kamu memutuskan untuk tidur.)</item>
+        <item>( Zzz )</item>
+        <item>( Zzz Zzz )</item>
+        <item>addtime1</item>
+        <item>( ZzzZZzZzzzZzz )</item>
+        <item>(Kamu terbangun.)</item>
+        <item>(Tidur sejenak dapat menyegarkan pikiranmu.)</item>
+        <item>(Kamu memutuska untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi9_8">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi9_9">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi9_10">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi9_11">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi9_12">
+        <item>start</item>0
+        <item>(Kamu melihat seseorang di \'Mading\'.)</item>
+        <item>chara8</item>
+        <item>( … )</item>
+        <item>chara8end</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Berinteraksi dengannya.</item>
+        <item>goto12</item>
+        <item>Pergi meninggalkan \'Mading\'.</item>
+        <item>goto18</item>
+        <item>quisgotoend</item>
+        <item>block</item>12
+        <item>(Kamu mencoba berinteraksi dengannya.)</item>
+        <item>chara8</item>
+        <item>freetime</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>18
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi9_13">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi9_14">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi9_15">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi9_16">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi9_17">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi9_7">
+        <item>start</item>0
+        <item>(Tidak ada orang di \'Mading\'.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Tidur hingga kelas dimulai.</item>
+        <item>goto21</item>
+        <item>Membaca artikel yang dipasang.</item>
+        <item>goto14</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto11</item>
+        <item>quisgotoend</item>10
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.</item>
+        <item>end</item>
+        <item>block</item>14
+        <item>(Terpasang artikel yang cukup menarik tentang aktivitas ORMAWA.)</item>
+        <item>(Kamu berfikir mungkin ada baiknya mengikuti salah satu ORMAWA yang ada.)</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca artikel yang ada.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>21
+        <item>(Kamu memutuskan untuk tidur.)</item>
+        <item>( Zzz )</item>
+        <item>( Zzz Zzz )</item>
+        <item>addtime1</item>
+        <item>( ZzzZZzZzzzZzz )</item>
+        <item>(Kamu terbangun.)</item>
+        <item>(Tidur sejenak dapat menyegarkan pikiranmu.)</item>
+        <item>(Kamu memutuska untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi9_8">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi9_9">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi9_10">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi9_11">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi9_12">
+        <item>start</item>0
+        <item>(Kamu melihat seseorang di \'Mading\'.)</item>
+        <item>chara8</item>
+        <item>( … )</item>
+        <item>chara8end</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Berinteraksi dengannya.</item>
+        <item>goto12</item>
+        <item>Pergi meninggalkan \'Mading\'.</item>
+        <item>goto18</item>
+        <item>quisgotoend</item>
+        <item>block</item>12
+        <item>(Kamu mencoba berinteraksi dengannya.)</item>
+        <item>chara8</item>
+        <item>freetime</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>18
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi9_13">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi9_14">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi9_15">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi9_16">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi9_17">
+        <item>start</item>
+        <item>(Tidak ada siapapun disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+</resources>

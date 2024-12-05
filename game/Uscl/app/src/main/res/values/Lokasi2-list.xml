@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alur_0_Lokasi2_7">
+        <item>start</item>
+        <item>bg2</item>
+        <item>(Setiap orang memiliki rencana hidup yang berbeda.)</item>
+        ss<item>(Setelah lulus SMA, ada yang langsung mencari pekerjaan, dan ada yang memilih untuk melanjutkan pendidikan ke jenjang yang lebih tinggi.)</item>
+        <item>(Namun bagimu, sudah menjadi cita-cita sejak kecil untuk menjadi seorang sarjana.)</item>
+        <item>(Saat memasuki masa penerimaan mahasiswa baru, kamu bertekad untuk menggapai gelar tersebut.)</item>
+        <item>(Setelah lolos ujian masuk, mengikuti masa orientasi, kamu berhasil menjadi mahasiswa baru di Universitas Respati Indonesia.)</item>
+        <item>(Mulai dari sini ceritamu dimulai!)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi2_8">
+        <item>start</item>
+        <item>(Kelas akan segera dimulai.)</item>
+        <item>(Bergegaslah ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi2_9">
+        <item>start</item>
+        <item>bg8</item>
+        <item>(Sepertinya pulang kerumah bukan pilihan terbaik untuk saat ini.)</item>
+        <item>(Kamu memutuskan untuk mencari informasi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi2_10">
+        <item>start</item>
+        <item>bg8</item>
+        <item>(Jadilah mahasiswa teladan, jangan jadi masiwa teredan!)</item>
+        <item>(STOP BUDAYA MEMBOLOS!)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi2_11">
+        <item>start</item>
+        <item>bg8</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>bg8end</item>
+        <item>bg2</item>
+        <item>(Angin berhembus dengan lembut.)</item>
+        <item>(Hembusan angin meningkatkan mood-mu.)</item>
+        <item>addtime7</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi2_12"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi2_13"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi2_14"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi2_15"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi2_16"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi2_17"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi2_7"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi2_8"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi2_9"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi2_10"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi2_11"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi2_12"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi2_13"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi2_14"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi2_15"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi2_16"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi2_17"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi2_7"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi2_8"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi2_9"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi2_10"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi2_11"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi2_12"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi2_13"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi2_14"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi2_15"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi2_16"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi2_17"> Jalan ke rumah
+        <item>start</item>
+        <item>(Kamu memutuskan untuk pulang.)</item>
+        <item>addtime11</item>
+        <item>end</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="info_chara1">
+        <item>Donny</item>
+        <item>Detail Karakter 1.</item>
+    </string-array>
+
+    <string-array name="info_chara2">
+        <item>Erik Tresnojoyo</item>
+        <item>Detail Karakter 2.</item>
+    </string-array>
+
+    <string-array name="info_chara3">
+        <item>Reynald</item>
+        <item>Detail Karakter 3.</item>
+    </string-array>
+
+    <string-array name="info_chara4">
+        <item>Dea Arumsari</item>
+        <item>Detail Karakter 4.</item>
+    </string-array>
+
+    <string-array name="info_chara5">
+        <item>Anthony Sinaga</item>
+        <item>Detail Karakter 5.</item>
+    </string-array>
+
+    <string-array name="info_chara6">
+        <item>Edo Sulistyo</item>
+        <item>Detail Karakter 6.</item>
+    </string-array>
+
+    <string-array name="info_chara7">
+        <item>Andreas Mulyono</item>
+        <item>Detail Andreas Mulyono.</item>
+    </string-array>
+
+    <string-array name="info_chara8">
+        <item>Eka Saraswati</item>
+        <item>Dia adalah Ketua UKM Lembaga Pers Mahasiswa Urindo (LPMU).
+        \nDia sering berada di \'Perpustakaan\' dan terkadang ada di \'Mading\'.</item>
+    </string-array>
+
+    <string-array name="materiList_chara0">
+        <item>materi_0</item>
+        <item>materi_3</item>
+    </string-array>
+
+    <string-array name="materiList_chara1">
+        <item>materi_0</item>
+        <item>materi_1</item>
+        <item>materi_3</item>
+        <item>materi_6</item>
+        <item>materi_8</item>
+    </string-array>
+
+    <string-array name="materiList_chara2">
+        <item>materi_2</item>
+        <item>materi_4</item>
+        <item>materi_5</item>
+        <item>materi_7</item>
+        <item>materi_9</item>
+    </string-array>
+
+    <string-array name="materiList_chara3">
+        <item>materi_0</item>
+        <item>materi_1</item>
+        <item>materi_2</item>
+    </string-array>
+
+    <string-array name="materiList_chara4">
+        <item>materi_2</item>
+        <item>materi_4</item>
+        <item>materi_5</item>
+        <item>materi_9</item>
+    </string-array>
+    <string-array name="materiList_chara5">
+        <item>materi_2</item>
+        <item>materi_4</item>
+        <item>materi_5</item>
+        <item>materi_9</item>
+    </string-array>
+    <string-array name="materiList_chara6">
+        <item>materi_0</item>
+        <item>materi_1</item>
+        <item>materi_2</item>
+        <item>materi_3</item>
+        <item>materi_4</item>
+        <item>materi_5</item>
+        <item>materi_6</item>
+        <item>materi_7</item>
+        <item>materi_8</item>
+        <item>materi_9</item>
+    </string-array>
+
+    <string-array name="materiList_chara7">
+        <item>materi_2</item>
+        <item>materi_6</item>
+        <item>materi_8</item>
+        <item>materi_9</item>
+    </string-array>
+
+    <string-array name="materiList_chara8">
+        <item>materi_0</item>
+        <item>materi_3</item>
+        <item>materi_9</item>
+    </string-array>
+
+    <string-array name="chara1_freetime_met_0">
+        <item>freetimestart</item>0
+        <item>halo.</item>
+        <item>Kita tadi sekelas ya?</item>
+        <item>chara1end</item>
+        <item>quisgoto</item>
+        <item>(Apa tanggapanmu?)</item>
+        <item>Iya, salam kenal.</item>
+        <item>goto13</item>
+        <item>Benarkah?</item>
+        <item>goto29</item>
+        <item>Coba tebak~.</item>10
+        <item>goto29</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu mengenalkan diri padanya.)</item>
+        <item>chara1</item>
+        <item>Ah, salam kenal juga.</item>
+        <item>Ngomong-ngomong, namaku Donny.</item>
+        <item>chara1_addMet</item>
+        <item>Saling berbagi informasi ya.</item>
+        <item>chara1end</item>
+        <item>(Kamu berbincang banyak dengannya.)</item>
+        <item>addtime2</item>20
+        <item>(Tak terasa waktu telah berlalu.)</item>
+        <item>chara1</item>
+        <item>Tak terasa sudah 2 jam kita berbincang.</item>
+        <item>Lain kali, kalau kamu ingin ngobrol, silahkan saja.</item>
+        <item>chara1end</item>
+        <item>(Dia terlihat seperti orang yang cukup ramah.)</item>
+        <item>freetimeend</item>
+        <item>block</item>
+        <item>(Kamu mencoba mengelabuinya.)</item>
+        <item>chara1</item>
+        <item>Aku yakin kita sekelas.</item>30
+        <item>chara1end</item>
+        <item>(Sepertinya kamu tidak berhasil mengelabuinya.)</item>
+        <item>chara1</item>
+        <item>Ngomong-ngomong, namaku Donny.</item>
+        <item>chara1_addMet</item>
+        <item>Saling berbagi informasi ya.</item>
+        <item>chara1end</item>
+        <item>(Kamu berbincang banyak dengannya.)</item>
+        <item>addtime2</item>
+        <item>(Tak terasa waktu telah berlalu.)</item>
+        <item>chara1</item>40
+        <item>Tak terasa sudah 2 jam kita berbincang.</item>
+        <item>Lain kali, kalau kamu ingin ngobrol, silahkan saja.</item>
+        <item>chara1end</item>
+        <item>(Dia terlihat seperti orang yang cukup ramah.)</item>
+        <item>freetimeend</item>
+    </string-array>
+
+    <string-array name="chara1_freetime_met_1">
+        <item>freetimestart</item>
+        <item>(Sepertinya chara1 sedang tidak sibuk.)</item>
+        <item>(Kamu memutuskan untuk mencoba menanyakan materi ke chara1.)</item>
+        <item>askmateri</item>
+        <item>freetimeend</item>
+    </string-array>
+
+    <string-array name="chara4_freetime_met_0">
+        <item>freetimestart</item>
+        <item>Kamu tadi sekelas denganku ya?</item>
+        <item>Perkenalkan, namaku Dea Arumsari</item>
+        <item>chara4_addMet</item>
+        <item>chara4_addMet</item>
+        <item>Mohon bantuannya.</item>
+        <item>freetimeend</item>
+    </string-array>
+
+    <string-array name="chara4_freetime_met_1">
+        <item>freetimestart</item>
+        <item>Kita bertemu lagi.</item>
+        <item>chara4_addMet</item>
+        <item>Berada didepan mading membuatku merasa lebih bersemangat.</item>
+        <item>freetimeend</item>
+    </string-array>
+
+    <string-array name="chara4_freetime_met_2">
+        <item>freetimestart</item>
+        <item>Sepertinya informasi mengenai SCL tidak dapat kita temukan di mading.</item>
+        <item>Mungkin ada buku di perpustakaan yang membahasnya?</item>
+        <item>freetimeend</item>
+    </string-array>
+
+    <string-array name="chara8_freetime_met_0">
+        <item>freetimestart</item>0
+        <item>Ngomong-ngomong, kamu ingin bergabung dengan UKM Pers Urindo?</item>
+        <item>chara8end</item>
+        <item>(Dia bertanya apakah kamu ingin bergabung dengan UKM tersebut.)</item>
+        <item>quisgoto</item>
+        <item>(Apa jawabmu?)</item>
+        <item>Baiklah.</item>
+        <item>goto13</item>
+        <item>Em, aku kurang berminat.</item>
+        <item>goto44</item>
+        <item>(Abaikan dia.)</item>10
+        <item>goto44</item>
+        <item>quisgotoend</item>
+        <item>block</item>13
+        <item>(Kamu menerima ajakannya.)</item>
+        <item>chara8</item>
+        <item>Kalau begitu, ayo kita langsung ke ruang ORMAWA.</item>
+        <item>Akan aku jelaskan mengenai jadwal dan teknis kegiatannya disana.</item>
+        <item>chara8end</item>
+        <item>(Dia terlihat sangat antusias.)</item>
+        <item>(Kamu mengikutinya ke \'ruang ORMAWA\'.)</item>20
+        <item>bg13</item>
+        <item>chara8</item>
+        <item>Sekarang akan aku jelaskan tentang Lembaga Pers Mahasiswa Urindo atau yang biasa disingkat LPMU.</item>
+        <item>Kami biasa mengadakan pertemuan setiap jam 12.00 hingga selesai.</item>
+        <item>Sebelum memulai pertemuan, kami berkumpul terlebih dahulu di depan \'Mading\'.</item>
+        <item>chara8end</item>
+        <item>(Sebaiknya kamu mengingat waktu dan tempat pertemuan tersebut.)</item>
+        <item>(Ingat, pertemuan dimulai jam 12.00 dan mereka berkumpul di \'Mading\' pada jam tersebut.)</item>
+        <item>chara8</item>
+        <item>Selanjutnya, akan aku jelaskan mengenai apa yang kami lakukan.</item>30
+        <item>Secara rutin kami mencari berita sekitar kampus dan mem-posting-nya ke \'Mading\' serta Website.</item>
+        <item>Jadi, ada yang ingin ditanyakan?</item>
+        <item>chara8end</item>
+        <item>(Dia menayakan apakan ada yang ingin kamu tanyakan.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu tanyakan?)</item>
+        <item>Berita apa yang biasa diliput?</item>
+        <item>goto77</item>
+        <item>Apakah semua berita dapat dimasukan ke \'Mading\'?</item>
+        <item>goto77</item>40
+        <item>Sepertinya tidak ada yang ingin aku tanyakan.</item>
+        <item>goto97</item>
+        <item>quisgotoend</item>
+        <item>block</item>44
+        <item>(Kamu menolak ajakannya.)</item>
+        <item>chara8</item>
+        <item>Jangan langsung menolak begitu.</item>
+        <item>Coba dengarkan penjelasan tentang UKM ini terebih dahulu.</item>
+        <item>Ayo, ikut aku ke ruang ORMAWA</item>
+        <item>Akan aku jelaskan mengenai jadwal dan teknis kegiatannya disana.</item>50
+        <item>chara8end</item>
+        <item>(Dia memaksamu mengikutinya.)</item>
+        <item>(Kamu terpaksa mengikutinya ke \'ruang ORMAWA\'.)</item>
+        <item>bg13</item>
+        <item>chara8</item>
+        <item>Sekarang akan aku jelaskan tentang Lembaga Pers Mahasiswa Urindo atau yang biasa disingkat LPMU.</item>
+        <item>Kami biasa mengadakan pertemuan setiap jam 12.00 hingga selesai.</item>
+        <item>Sebelum memulai pertemuan, kami berkumpul terlebih dahulu di depan \'Mading\'.</item>
+        <item>chara8end</item>
+        <item>(Sebaiknya kamu mengingat waktu dan tempat pertemuan tersebut.)</item>60
+        <item>(Ingat, pertemuan dimulai jam 12.00 dan mereka berkumpul di \'Mading\' pada jam tersebut.)</item>
+        <item>chara8</item>
+        <item>Selanjutnya, akan aku jelaskan mengenai apa yang kami lakukan.</item>
+        <item>Secara rutin kami mencari berita sekitar kampus dan mem-posting-nya ke \'Mading\' serta Website.</item>
+        <item>Jadi, ada yang ingin ditanyakan?</item>
+        <item>chara8end</item>
+        <item>(Dia menayakan apakan ada yang ingin kamu tanyakan.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu tanyakan?)</item>
+        <item>Berita apa yang biasa diliput?</item>70
+        <item>goto77</item>
+        <item>Apakah semua berita dapat dimasukan ke \'Mading\'?</item>
+        <item>goto77</item>
+        <item>Sepertinya tidak ada yang ingin aku tanyakan.</item>
+        <item>goto97</item>
+        <item>quisgotoend</item>
+        <item>block</item>87
+        <item>(Kamu menanyakan tentang berita yang biasa diliput.)</item>
+        <item>chara8</item>
+        <item>Tidak semua berita kami liput, biasanya kami meliput tentang kegiatan-kegiatan di kampus.</item>80
+        <item>chara8end</item>
+        <item>(Kamu berbicara banyak tentang kegiatan-kegiatan yang biasa diliput.)</item>
+        <item>addtime2</item>
+        <item>(Tak terasa, waktu berlalu.)</item>
+        <item>chara8</item>
+        <item>Sepertinya sudah cukup penjelasan dariku.</item>
+        <item>Oh iya, aku lupa memperkenalkan diri.</item>
+        <item>Perkenalkan, Namaku Eka Saraswati, Ketua LPMU sekarang.</item>
+        <item>chara8_addMet</item>
+        <item>Salam kenal, dan selamat bergabung.</item>
+        <item>chara8end</item>90
+        <item>(Dia pergi meninggalkanmu.)</item>
+        <item>( … )</item>
+        <item>(Kamu baru menyadari, sebelum pergi, dia berkata \'selamat bergabung\'.)</item>
+        <item>(Sepertinya kamu \'dipaksa\' bergabung dengan LPMU.)</item>
+        <item>freetimeend</item>
+        <item>block</item>97
+        <item>(Tidak ada yang ingin kamu tanyakan.)</item>
+        <item>chara8</item>
+        <item>Sepertinya, aku perlu menjelaskan tentang kegiatan-kegiatan di kampus yang biasa kami liput.</item>
+        <item>chara8end</item>101
+        <item>(Kamu berbicara banyak tentang kegiatan-kegiatan yang biasa diliput.)</item>
+        <item>addtime2</item>
+        <item>(Tak terasa, waktu berlalu.)</item>
+        <item>chara8</item>
+        <item>Sepertinya sudah cukup penjelasan dariku.</item>
+        <item>Oh iya, aku lupa memperkenalkan diri.</item>
+        <item>Perkenalkan, Namaku Eka Saraswati, Ketua LPMU sekarang.</item>
+        <item>chara8_addMet</item>
+        <item>Salam kenal, dan selamat bergabung.</item>
+        <item>chara8end</item>
+        <item>(Dia pergi meninggalkanmu.)</item>111
+        <item>( … )</item>
+        <item>(Kamu baru menyadari, sebelum pergi, dia berkata \'selamat bergabung\'.)</item>
+        <item>(Sepertinya kamu \'dipaksa\' bergabung dengan LPMU.)</item>
+        <item>freetimeend</item>115
+    </string-array>
+
+    <string-array name="chara8_freetime_met_1">
+        <item>freetimestart</item>
+        <item>Terima kasih telah menyempatkan waktumu untuk LPMU.</item>
+        <item>chara8end</item>
+        <item>(Kamu menghabiskan waktu untuk mengikuti kegiatan LPMU.)</item>
+        <item>addtime2</item>
+        <item>(Tanpa terasa waktu telah berlalu.)</item>
+        <item>freetimeend</item>
+    </string-array>
+</resources>

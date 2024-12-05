@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alur_1_Lokasi5_8">
+        <item>start</item>
+        <item>skipif_chara4_smallerthan_1</item>
+        <item>(Seseorang menepukmu dari belakang.)</item>
+        <item>chara4</item>
+        <item>Kita sekelas ternyata.</item>
+        <item>Mohon bantuan kedepannya ya.</item>
+        <item>chara4end</item>
+        <item>skipifend</item>
+        <item>bg10</item>
+        <item>(Terdengar suara dosen datang memasuki kelas.)</item>
+        <item>chara6</item>
+        <item>Pagi semuanya, perkenalkan, nama saya adalah Edo Sulistyo.</item>
+        <item>chara6_addMet</item>
+        <item>Saya akan mengajar mata kuliah \'Sistem informasi managemen\'.</item>
+        <item>Sebelum pelajaran dimulai, saya ingin bertanya, siapa yang mengetahui metode pembelajaran SCL?</item>
+        <item>chara6end</item>
+        <item>(Seisi kelas mulai ricuh.)</item>
+        <item>(Kamu mendengar beberapa teman sekelas mulai bergumam.)</item>
+        <item>chara4</item>
+        <item>SCL? kira-kira apa ya?</item>
+        <item>chara4end</item>
+        <item>chara2</item>
+        <item>Baru masuk udah ditanya begini&#8230; pusing deh.</item>
+        <item>chara2end</item>
+        <item>chara5</item>
+        <item>Laparnya&#8230;</item>
+        <item>chara5end</item>
+        <item>addtime1</item>
+        <item>(Kericuhan kelas terus berlanjut namun tidak membuahkan hasil.)</item>
+        <item>(Tiba-tiba dosen memotong kericuhan.)</item>
+        <item>chara6</item>
+        <item>Jangan berisik semuanya.</item>
+        <item>Bapak akan beri kalian waktu 1 jam untuk mencari informasi tentang SCL atau Student-center learning.</item>
+        <item>Kalian bebas untuk mencarinya dengan cara apapun, namun, setelah 1 jam, kalian semua harus kembali keruangan ini dan memberitahu apa yang kalian dapat.</item>
+        <item>Bapak akan menunggu kalian semua disini, silahkan mulai mencari informasi.</item>
+        <item>chara6end</item>
+        <item>enable_tugas0</item>
+        <item>(Kamu diberi tugas untuk mencari informasi tentang Student-center learning.)</item>
+        <item>(Lebih baik kamu mencatat Student-center learning didalam \'Memo\'.</item>
+        <item>addState_materi_0</item>
+        <item>(Periksalah \'Memo\' pada \'Option\' dengan menekan tombol \'Show Menu\', dan lihatlah bagian \'Materi\'.)</item>
+        <item>(Kira-kira, dimanakah tempat terbaik untuk mencari informasi tersebut?)</item>
+        <item>(\'Ruang 3.05\'? \'Perpustakaan\', \'Lab. Komputer\'?)</item>
+        <item>(Teman sekelasmu sudah mulai meninggalkan ruangan, sebaiknya kamu bergegas mencari informasi mengenai SCL.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi5_9">
+        <item>start</item>0
+        <item>chara6</item>
+        <item>Waktunya masih belum habis.</item>
+        <item>quisgoto</item>
+        <item>Apa kamu sudah menemukan jawabannya?</item>
+        <item>Sudah.</item>
+        <item>goto23</item>
+        <item>Masih belum.</item>
+        <item>goto12</item>
+        <item>Boleh saya tanya jawabannya pak?</item>
+        <item>goto119</item>10
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>Silahkan pergunakan waktumu sebaik mungkin.</item>
+        <item>end</item>
+        <item>block</item>
+        <item>Kamu pikir saya tau jawabannya..?</item>
+        <item>Hahaha…</item>
+        <item>chara6end</item>
+        <item>( … )</item>
+        <item>(Sepertinya beliau tipe dosen yang suka bercanda.)</item>20
+        <item>(Kamu memutuskan untuk mencari informasi di tempat lain.)</item>
+        <item>end</item>
+        <item>block</item>
+        <item>Baiklah, sekarang kita tunggu yang lain.</item>
+        <item>chara6end</item>
+        <item>bg5end</item>
+        <item>bg10</item>
+        <item>(Kamu menunggu yang lain kembali ke kelas.)</item>
+        <item>addtime1</item>
+        <item>(Seluruh teman sekelasmu telah kembali ke kelas.)</item>30
+        <item>chara6</item>
+        <item>Baiklah, waktu untuk mencari informasi telah habis.</item>
+        <item>Sekarang akan saya panggil seseorang secara acak untuk menjawab pertanyaan tadi.</item>
+        <item>chara6end</item>
+        <item>(Dosen mulai melihat sekeliling kelas.)</item>
+        <item>(Matanya berhenti ke arahmu.)</item>
+        <item>chara6</item>
+        <item>Kamu.. ayo berdiri.</item>
+        <item>quismateri</item>
+        <item>soal_id_0</item>40
+        <item>Apa yang kamu ketahui tentang SCL?</item>
+        <item>materi_0_title</item>
+        <item>materi_0_substring_0_125</item>
+        <item>materi_5_title</item>
+        <item>materi_5_substring_46_118</item>
+        <item>materi_6_title</item>
+        <item>materi_6_substring_0_71</item>
+        <item>jawaban</item>
+        <item>materi_0_substring_0_125</item>
+        <item>quismateriend</item>50
+        <item>Yang lain, bersiaplah, saya akan tanyakan soal yang sama ke kalian semua..</item>
+        <item>chara6end</item>
+        <item>(Dosen mulai menanyakan soal yang sama ke teman sekelas lainnya.)</item>
+        <item>addtime1</item>
+        <item>(Setelah beberapa saat, dosen selesai menanyakan pertanyaan.)</item>
+        <item>chara6</item>
+        <item>Setelah mendengar jawaban dari kalian semua, dapat saya ambil kesimpulan.</item>
+        <item>Beberapa kalian telah mengetahui SCL, dan telah menerapkan sebagian dari SCL tersebut.</item>
+        <item>skipif_tugas0_biggerthan_1</item>
+        <item>Akan saya jelaskan apa yang dimaksud dengan SCL.</item>60
+        <item>chara6end</item>
+        <item>(Kamu menyimak dosen menjelaskan tentang SCL.)</item>
+        <item>addState_materi_0</item>
+        <item>(Sebaiknya kamu lebih serius dalam mencari informasi lain waktu.)</item>
+        <item>chara6</item>
+        <item>Semoga penjelasan barusan dapat membuat kalian semua mengerti tentang SCL.</item>
+        <item>skipifend</item>
+        <item>Sesungguhnya, SCL bukanlah hanya sebatas mencari informasi secara mandiri saja.</item>
+        <item>Namun juga dapat bekerjasama dan berkolaborasi dengan teman lain, secara aktif berinteraksi satu sama lain, selalu berperan aktif, dan dapat meresapi konten materi yang kalian dapat.</item>
+        <item>Peran pengajar dalam metode pembelajaran ini adalah sebagai fasilitator.</item>70
+        <item>Pengajar berperan memberi bantuan kepada pelajar, namun semuanya sangat bergantung pada cara pelajar menggunakan bantuan tersebut.</item>
+        <item>Dalam mata kuliah ini, saya akan menerapkan metode ini kepada kalian.</item>
+        <item>Hasil yang dapat kalian raih akan sangat bergantung pada diri kalian sendiri.</item>
+        <item>Jika kalian ingin mendapatkan nilai baik, maka bantulah diri kalian sendiri untuk meraihnya.</item>
+        <item>Kalau kalian menemukan kesulitan, jangan ragu untuk tanyakan masalah kalian ke saya.</item>
+        <item>Pertemuan hari ini kita cukupkan sampai disini.</item>
+        <item>chara6end</item>
+        <item>(Kamu mulai membereskan barang.)</item>
+        <item>chara6</item>
+        <item>Ehmm, sebelum pergi ...</item>80
+        <item>chara6end</item>
+        <item>(Kamu berhenti membereskan barang.)</item>
+        <item>chara6</item>
+        <item>... Saya minta perwakilan dari kalian untuk menyebarkan \'slide\' materi pertemuan kita berikutnya.</item>
+        <item>chara6end</item>
+        <item>(Seisi kelas melihat kearahmu.)</item>
+        <item>(Melihat dari cara mereka memandang, seolah semua menunjukmu untuk menjadi perwakilan kelas.)</item>
+        <item>(Kamu secara \'resmi\' menjadi orang yang membagikan materi didalam kelas.)</item>
+        <item>chara6</item>
+        <item>enable_slide1</item>
+        <item>Baiklah, \'slide\'-nya sudah terkirim.</item>90
+        <item>Jangan lupa, sebarkan ke yang lain.</item>
+        <item>Saya harap memahami \'slide\' yang saya berikan.</item>
+        <item>Semoga pembelajaran hari ini bermanfaat.</item>
+        <item>chara6_addMet</item>
+        <item>chara6end</item>
+        <item>(Dosen meninggalkan kelas.)</item>
+        <item>quisgoto</item>
+        <item>(Sebarkan \'slide\'?)</item>
+        <item>Ya.</item>
+        <item>goto104</item>
+        <item>Tidak.</item>100
+        <item>goto109</item>
+        <item>quisgotoend</item>
+        <item>block</item>104
+        <item>(Kamu mulai menyebar \'slide\'.)</item>
+        <item>(Setelah semua mendapatkan \'slide\' dari dosen, teman sekelasmu meninggalkan ruangan.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>109
+        <item>(Kamu bersiap untuk meninggalkan kelas.)</item>
+        <item>chara2</item>111
+        <item>Hoi! \'slide\'-nya ga jadi disebar?!</item>
+        <item>chara2end</item>
+        <item>(Sepertinya kamu harus menyebarkan \'slide\' tersebut.)</item>
+        <item>(Kamu mulai menyebar \'slide\'.)</item>
+        <item>(Setelah semua mendapatkan \'slide\' dari dosen, teman sekelasmu meninggalkan ruangan.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>119
+        <item>Kamu pikir saya tau jawabannya..?</item>
+        <item>Hahaha…</item>
+        <item>chara6end</item>
+        <item>( … )</item>
+        <item>(Sepertinya beliau tipe dosen yang suka bercanda.)</item>20
+        <item>chara6</item>
+        <item>Cobalah kamu datangi perpustakaan.</item>
+        <item>Seingat saya ada salah satu buku yang membahas tentang SCL disana.</item>
+        <item>chara6end</item>
+        <item>(Dosen menyarankanmu untuk mendatangi perpustakaan.)</item>
+        <item>(Kamu memutuskan untuk mencari informasi di tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi5_10">
+        <item>start</item>0
+        <item>bg10</item>
+        <item>(Kamu kembali ke tempatmu.)</item>
+        <item>chara6</item>
+        <item>Baiklah, waktu untuk mencari informasi telah habis.</item>
+        <item>Sekarang akan saya panggil seseorang secara acak untuk menjawab pertanyaan tadi.</item>
+        <item>chara6end</item>
+        <item>(Dosen mulai melihat sekeliling kelas.)</item>
+        <item>(Matanya berhenti ke arahmu.)</item>
+        <item>chara6</item>
+        <item>Kamu.. ayo berdiri.</item>10
+        <item>quismateri</item>
+        <item>soal_id_0</item>
+        <item>Apa yang kamu ketahui tentang SCL?</item>
+        <item>materi_0_title</item>
+        <item>materi_0_substring_0_125</item>
+        <item>materi_5_title</item>
+        <item>materi_5_substring_46_118</item>
+        <item>materi_6_title</item>
+        <item>materi_6_substring_0_71</item>
+        <item>jawaban</item>20
+        <item>materi_0_substring_0_125</item>
+        <item>quismateriend</item>
+        <item>Yang lain, bersiaplah, saya akan tanyakan soal yang sama ke kalian semua..</item>
+        <item>chara6end</item>
+        <item>(Dosen mulai menanyakan soal yang sama ke teman sekelas lainnya.)</item>
+        <item>addtime1</item>
+        <item>(Setelah beberapa saat, dosen selesai menanyakan pertanyaan.)</item>
+        <item>chara6</item>
+        <item>Setelah mendengar jawaban dari kalian semua, dapat saya ambil kesimpulan.</item>
+        <item>Beberapa kalian telah mengetahui SCL, dan telah menerapkan sebagian dari SCL tersebut.</item>30
+        <item>skipif_tugas0_biggerthan_1</item>
+        <item>Akan saya jelaskan apa yang dimaksud dengan SCL.</item>
+        <item>chara6end</item>
+        <item>(Kamu menyimak dosen menjelaskan tentang SCL.)</item>
+        <item>addState_materi_0</item>
+        <item>(Sebaiknya kamu lebih serius dalam mencari informasi lain waktu.)</item>
+        <item>chara6</item>
+        <item>Semoga penjelasan barusan dapat membuat kalian semua mengerti tentang SCL.</item>
+        <item>skipifend</item>
+        <item>Sesungguhnya, SCL bukanlah hanya sebatas mencari informasi secara mandiri saja.</item>40
+        <item>Namun juga dapat bekerjasama dan berkolaborasi dengan teman lain, secara aktif berinteraksi satu sama lain, selalu berperan aktif, dan dapat meresapi konten materi yang kalian dapat.</item>
+        <item>Peran pengajar dalam metode pembelajaran ini adalah sebagai fasilitator.</item>
+        <item>Pengajar berperan memberi bantuan kepada pelajar, namun semuanya sangat bergantung pada cara pelajar menggunakan bantuan tersebut.</item>
+        <item>Dalam mata kuliah ini, saya akan menerapkan metode ini kepada kalian.</item>
+        <item>Hasil yang dapat kalian raih akan sangat bergantung pada diri kalian sendiri.</item>
+        <item>Jika kalian ingin mendapatkan nilai baik, maka bantulah diri kalian sendiri untuk meraihnya.</item>
+        <item>Kalau kalian menemukan kesulitan, jangan ragu untuk tanyakan masalah kalian ke saya.</item>
+        <item>Pertemuan hari ini kita sudahkan sampai disini.</item>
+        <item>chara6end</item>
+        <item>(Kamu mulai membereskan barang.)</item>50
+        <item>chara6</item>
+        <item>Ehmm, sebelum pergi ...</item>
+        <item>chara6end</item>
+        <item>(Kamu berhenti membereskan barang.)</item>
+        <item>chara6</item>
+        <item>... Saya minta perwakilan dari kalian untuk menyebarkan \'slide\' materi pertemuan kita berikutnya.</item>
+        <item>chara6end</item>
+        <item>(Seisi kelas melihat kearahmu.)</item>
+        <item>(Melihat dari cara mereka memandang, seolah semua menunjukmu untuk menjadi perwakilan kelas.)</item>
+        <item>(Kamu secara \'resmi\' menjadi orang yang membagikan materi didalam kelas.)</item>60
+        <item>chara6</item>
+        <item>enable_slide1</item>
+        <item>Baiklah, \'slide\'-nya sudah terkirim.</item>
+        <item>Jangan lupa, sebarkan ke yang lain.</item>
+        <item>Saya harap kalian dapat memahami \'slide\' yang saya berikan.</item>
+        <item>Semoga pembelajaran hari ini bermanfaat.</item>
+        <item>chara6_addMet</item>
+        <item>chara6end</item>
+        <item>(Dosen meninggalkan kelas.)</item>
+        <item>quisgoto</item>
+        <item>(Sebarkan \'slide\'?)</item>70
+        <item>Ya.</item>
+        <item>goto77</item>
+        <item>Tidak.</item>
+        <item>goto82</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu mulai menyebar \'slide\'.)</item>
+        <item>(Setelah semua mendapatkan \'slide\' dari dosen, teman sekelasmu meninggalkan ruangan.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>80
+        <item>(Kamu bersiap untuk meninggalkan kelas.)</item>
+        <item>chara2</item>
+        <item>Hoi! \'slide\'-nya ga jadi disebar?!</item>
+        <item>chara2end</item>
+        <item>(Sepertinya kamu harus menyebarkan \'slide\' tersebut.)</item>
+        <item>(Kamu mulai menyebar \'slide\'.)</item>
+        <item>(Setelah semua mendapatkan \'slide\' dari dosen, teman sekelasmu meninggalkan ruangan.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi5_11">
+        <item>start</item>0
+        <item>(Ada seseorang di depan kelas.)</item>
+        <item>chara1</item>
+        <item>Hmm? ternyata seperti itu.</item>
+        <item>chara1end</item>
+        <item>(Terlihat dia sedang membaca slide yang diberikan oleh dosen.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang kamu lakukan?)</item>
+        <item>Memulai pembicaraan.</item>
+        <item>goto33</item>
+        <item>Pergi ke tempat lain.</item>10
+        <item>goto15</item>
+        <item>Diam di tempat.</item>
+        <item>goto18</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>
+        <item>(Kamu diam tanpa suara.)</item>
+        <item>chara1</item>20
+        <item>Hm? ada perlu apa?</item>
+        <item>chara1end</item>
+        <item>(Sepertinya dia menyadari kehadiranmu.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang kamu lakukan?)</item>
+        <item>Memulai pembicaraan.</item>
+        <item>goto33</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto15</item>
+        <item>Diam di tempat.</item>
+        <item>goto18</item>30
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu mulai menyapa.)</item>
+        <item>chara1</item>
+        <item>freetime</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+
+    </string-array><string-array name="alur_1_Lokasi5_12">
+        <item>start</item>0
+        <item>(Ada seseorang di depan kelas.)</item>
+        <item>chara1</item>
+        <item>Hmm? ternyata seperti itu.</item>
+        <item>chara1end</item>
+        <item>(Terlihat dia sedang membaca slide yang diberikan oleh dosen.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang kamu lakukan?)</item>
+        <item>Memulai pembicaraan.</item>
+        <item>goto33</item>
+        <item>Pergi ke tempat lain.</item>10
+        <item>goto15</item>
+        <item>Diam di tempat.</item>
+        <item>goto18</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>
+        <item>(Kamu diam tanpa suara.)</item>
+        <item>chara1</item>20
+        <item>Hm? ada perlu apa?</item>
+        <item>chara1end</item>
+        <item>(Sepertinya dia menyadari kehadiranmu.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang kamu lakukan?)</item>
+        <item>Memulai pembicaraan.</item>
+        <item>goto33</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto15</item>
+        <item>Diam di tempat.</item>
+        <item>goto18</item>30
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu mulai menyapa.)</item>
+        <item>chara1</item>
+        <item>freetime</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi5_13">
+        <item>start</item>
+        <item>chara5</item>
+        <item>Hehehee.</item>
+        <item>Hehehehehee.</item>
+        <item>chara6end</item>
+        <item>( … )</item>
+        <item>(Hehe?)</item>
+        <item>(Aneh.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi5_14">
+        <item>start</item>
+        <item>chara5</item>
+        <item>Hehehee.</item>
+        <item>Hehehehehee.</item>
+        <item>chara6end</item>
+        <item>( … )</item>
+        <item>(Hehe?)</item>
+        <item>(Aneh.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi5_15">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi5_16">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi5_17">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi5_7">
+        <item>start</item>
+        <item>(Kamu datang lebih cepat.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Menunggu didalam kelas.</item>
+        <item>goto12</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+        <item>block</item>
+        <item>(Kamu memutuskan untuk menunggu didalam kelas.)</item>
+        <item>bg5end</item>
+        <item>bg10</item>
+        <item>(Kamu menempati tempatmu dan menunggu kehadiran dosen.)</item>
+        <item>( Zzz )</item>
+        <item>addtime1</item>
+        <item>( Zzz Zzz )</item>
+        <item>(Sepertinya kamu tertidur.)</item>
+        <item>(Terdengar suara dosen memasuki kelas.)</item>
+        <item>chara6</item>
+        <item>Selamat pagi semuanya.</item>
+        <item>Bagaimana dengan slide yang kemarin saya berikan?</item>
+        <item>Apakah ada yang ingin kalian tanyakan?</item>
+        <item>chara6end</item>
+        <item>(Dosen menanyakan apakah ada materi yang terlalu sulit untuk dipahami.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu tanyakan?)</item>
+        <item>Tentang sistem.</item>
+        <item>goto41</item>
+        <item>Tentang perbedaan data dan informasi.</item>
+        <item>goto54</item>
+        <item>Tentang sistem informasi bagi pelaku bisnis.</item>
+        <item>goto67</item>
+        <item>Tentang area pengetahuan pada sistem informasi.</item>
+        <item>goto80</item>
+        <item>Tidak ada yang ingin kamu tanyakan.</item>
+        <item>goto92</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu menanyakan tentang sistem.)</item>
+        <item>chara6</item>
+        <item>Em, seharusnya penjelasan tentang sistem didalam slide yang saya berikan sudah cukup jelas.</item>
+        <item>Mungkin beberapa dari kalian kurang memahami penjelasan tersebut.</item>
+        <item>Akan saya berikan penjelasan mengenai sistem.</item>
+        <item>chara6end</item>
+        <item>(Kamu memperhatikan penjelasan yang diberikan.)</item>
+        <item>addState_materi_1</item>
+        <item>addState_materi_1</item>
+        <item>addtime1</item>
+        <item>(Kamu lebih memahami tentang sistem sekarang.)</item>
+        <item>goto90</item>
+        <item>block</item>
+        <item>(Kamu menanyakan tentang perbedaan data dan informasi.)</item>
+        <item>chara6</item>
+        <item>Untuk dapat memahaminya, kalian harus memahami terlebih dahulu definisi data dan informasi.</item>
+        <item>Setelah memahami keduanya, barulah kalian dapat melihat perbedaan diantaranya.</item>
+        <item>Saya akan memberikan penjelasan singkat tentang data dan informasi.</item>
+        <item>chara6end</item>
+        <item>(Kamu memperhatikan penjelasan yang diberikan.)</item>
+        <item>addState_materi_2</item>
+        <item>addState_materi_2</item>
+        <item>addtime1</item>
+        <item>(Kamu lebih memahami tentang perbedaan data dan informasi sekarang.)</item>
+        <item>goto106</item>
+        <item>block</item>
+        <item>(Kamu menanyakan tentang sistem informasi bagi pelaku bisnis.)</item>
+        <item>chara6</item>
+        <item>Untuk dapat memahaminya, kalian harus dapat berfikir layaknya seorang pebisnis.</item>
+        <item>Dalam bisnis, pengambilan keputusan suatu strategi akan sangat berpengaruh bagi keunggulan proses bisnis.</item>
+        <item>Saya akan memberikan penjelasan singkat tentang pengaruh sistem informasi bagi bisnis.</item>
+        <item>chara6end</item>
+        <item>(Kamu memperhatikan penjelasan yang diberikan.)</item>
+        <item>addState_materi_3</item>
+        <item>addState_materi_3</item>
+        <item>addtime1</item>
+        <item>(Kamu lebih memahami tentang pengaruh sistem informasi pada bisnis.)</item>
+        <item>goto106</item>
+        <item>block</item>
+        <item>(Kamu menanyakan tentang area pengetahuan pada sistem informasi.)</item>
+        <item>chara6</item>
+        <item>Dalam slide yang saya berikan, diberitahukan terdapat 5 area pengetahuan pada sistem informasi.</item>
+        <item>Saya akan memberikan penjelasan singkat tentang area pengetahuan tersebut.</item>
+        <item>chara6end</item>
+        <item>(Kamu memperhatikan penjelasan yang diberikan.)</item>
+        <item>addState_materi_4</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu lebih memahami tentang area pengetahuian pada sistem informasi.)</item>
+        <item>goto106</item>
+        <item>block</item>
+        <item>(Tidak ada yang ingin kamu tanyakan, dan kamu memutuskan untuk diam.)</item>
+        <item>(Terlihat seorang teman kelasmu menanyakan sebuah pertanyaan kepada dosen.)</item>
+        <item>chara2</item>
+        <item>Saya ingin bertanya, kenapa dikelas ini kita menggunakan metode SCL?</item>
+        <item>chara2end</item>
+        <item>(Dia terlihat sangat bersemangat pada saat menanyakan pertanyaan tersebut.)</item>
+        <item>chara6</item>
+        <item>Baiklah, akan saya jelaskan.</item>
+        <item>chara6end</item>
+        <item>(Kamu memperhatikan penjelasan yang diberikan.)</item>
+        <item>addtime1</item>
+        <item>(Waktu berlalu seiring dengan penjelasan dosen.)</item>
+        <item>goto106</item>
+        <item>block</item>
+        <item>(Sepertinya dosen sedang melihat daftar nama mahasiswa.)</item>
+        <item>(Kira-kira apa yang akan dia lakukan?)</item>
+        <item>chara6</item>
+        <item>Saya akan membagi kalian menjadi beberapa kelompok.</item>
+        <item>Cobalah kalian lakukan diskusi antar kelompok tentang slide yang saya berikan kemarin.</item>
+        <item>Sekarang, akan saya akan menyebutkan nama-nama untuk tiap kelompok.</item>
+        <item>chara6end</item>
+        <item>(Dosen mulai menyebutkan nama dan nomor kelompok.)</item>
+        <item>(Kamu mendengar namamu, dan kamu masuk ke kelompok 3.)</item>
+        <item>chara6</item>
+        <item>Baiklah, silahkan kalian berkumpul dengan kelompok masing-masing.</item>
+        <item>Dan coba berdiskusi dengan kelompok kalian untuk mengukur kemampuan masing-masing.</item>
+        <item>chara6end</item>
+        <item>(Kamu mencoba berdiskusi anggota kelompokmu yang lain.)</item>
+        <item>(Kamu mencoba mendiskusikan tentang sistem.</item>
+        <item>chara1</item>
+        <item>Hm, menurutku sistem adalah…</item>
+        <item>chara1end</item>
+        <item>(Diskusi kelompokmu terus berlanjut.)</item>
+        <item>addtime1</item>
+        <item>chara6</item>
+        <item>Untuk hari ini, saya sudahi pertemuan sampai disini.</item>
+        <item>Saya mendapat panggilan untuk mengikuti rapat, saya harap kalian semua dapat melanjutkan pembelajaran secara mandiri.</item>
+        <item>Untuk minggu depan, akan saya adakan ulangan.</item>
+        <item>Jadi, saya harap kalian dapat mempersiapkan diri dengan sebaik mungkin.</item>
+        <item>chara6end</item>
+        <item>(Dosen terlihat seperti sedang terburu-buru.)</item>
+        <item>(Teman-teman sekelasmu terlihat mulai bersiap meninggalkan ruangan.)</item>
+        <item>(Kamu pergi meninggalkan ruangan.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi5_8">
+        <item>start</item>
+        <item>(Sudah jam 8, saatnya masuk kedalam kelas.)</item>
+        <item>bg5end</item>
+        <item>bg10</item>
+        <item>(Kamu menempati tempatmu dan menunggu kehadiran dosen.)</item>
+        <item>(Terdengar suara dosen memasuki kelas.)</item>
+        <item>chara6</item>
+        <item>Selamat pagi semuanya.</item>
+        <item>Bagaimana dengan slide yang kemarin saya berikan?</item>
+        <item>Apakah ada yang ingin kalian tanyakan?</item>
+        <item>chara6end</item>
+        <item>(Dosen menanyakan apakah ada materi yang terlalu sulit untuk dipahami.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu tanyakan?)</item>
+        <item>Tentang sistem.</item>
+        <item>goto25</item>
+        <item>Tentang perbedaan data dan informasi.</item>
+        <item>goto38</item>
+        <item>Tentang sistem informasi bagi pelaku bisnis.</item>
+        <item>goto51</item>
+        <item>Tentang area pengetahuan pada sistem informasi.</item>
+        <item>goto64</item>
+        <item>Tidak ada yang ingin kamu tanyakan.</item>
+        <item>goto76</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu menanyakan tentang sistem.)</item>
+        <item>chara6</item>
+        <item>Em, seharusnya penjelasan tentang sistem didalam slide yang saya berikan sudah cukup jelas.</item>
+        <item>Mungkin beberapa dari kalian kurang memahami penjelasan tersebut.</item>
+        <item>Akan saya berikan penjelasan mengenai sistem.</item>
+        <item>chara6end</item>
+        <item>(Kamu memperhatikan penjelasan yang diberikan.)</item>
+        <item>addState_materi_1</item>
+        <item>addState_materi_1</item>
+        <item>addtime1</item>
+        <item>(Kamu lebih memahami tentang sistem sekarang.)</item>
+        <item>goto90</item>
+        <item>block</item>
+        <item>(Kamu menanyakan tentang perbedaan data dan informasi.)</item>
+        <item>chara6</item>
+        <item>Untuk dapat memahaminya, kalian harus memahami terlebih dahulu definisi data dan informasi.</item>
+        <item>Setelah memahami keduanya, barulah kalian dapat melihat perbedaan diantaranya.</item>
+        <item>Saya akan memberikan penjelasan singkat tentang data dan informasi.</item>
+        <item>chara6end</item>
+        <item>(Kamu memperhatikan penjelasan yang diberikan.)</item>
+        <item>addState_materi_2</item>
+        <item>addState_materi_2</item>
+        <item>addtime1</item>
+        <item>(Kamu lebih memahami tentang perbedaan data dan informasi sekarang.)</item>
+        <item>goto90</item>
+        <item>block</item>
+        <item>(Kamu menanyakan tentang sistem informasi bagi pelaku bisnis.)</item>
+        <item>chara6</item>
+        <item>Untuk dapat memahaminya, kalian harus dapat berfikir layaknya seorang pebisnis.</item>
+        <item>Dalam bisnis, pengambilan keputusan suatu strategi akan sangat berpengaruh bagi keunggulan proses bisnis.</item>
+        <item>Saya akan memberikan penjelasan singkat tentang pengaruh sistem informasi bagi bisnis.</item>
+        <item>chara6end</item>
+        <item>(Kamu memperhatikan penjelasan yang diberikan.)</item>
+        <item>addState_materi_3</item>
+        <item>addState_materi_3</item>
+        <item>addtime1</item>
+        <item>(Kamu lebih memahami tentang pengaruh sistem informasi pada bisnis.)</item>
+        <item>goto90</item>
+        <item>block</item>
+        <item>(Kamu menanyakan tentang area pengetahuan pada sistem informasi.)</item>
+        <item>chara6</item>
+        <item>Dalam slide yang saya berikan, diberitahukan terdapat 5 area pengetahuan pada sistem informasi.</item>
+        <item>Saya akan memberikan penjelasan singkat tentang area pengetahuan tersebut.</item>
+        <item>chara6end</item>
+        <item>(Kamu memperhatikan penjelasan yang diberikan.)</item>
+        <item>addState_materi_4</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu lebih memahami tentang area pengetahuian pada sistem informasi.)</item>
+        <item>goto90</item>
+        <item>block</item>
+        <item>(Tidak ada yang ingin kamu tanyakan, dan kamu memutuskan untuk diam.)</item>
+        <item>(Terlihat seorang teman kelasmu menanyakan sebuah pertanyaan kepada dosen.)</item>
+        <item>chara2</item>
+        <item>Saya ingin bertanya, kenapa dikelas ini kita menggunakan metode SCL?</item>
+        <item>chara2end</item>
+        <item>(Dia terlihat sangat bersemangat pada saat menanyakan pertanyaan tersebut.)</item>
+        <item>chara6</item>
+        <item>Baiklah, akan saya jelaskan.</item>
+        <item>chara6end</item>
+        <item>(Kamu memperhatikan penjelasan yang diberikan.)</item>
+        <item>addtime1</item>
+        <item>(Waktu berlalu seiring dengan penjelasan dosen.)</item>
+        <item>goto90</item>
+        <item>block</item>
+        <item>(Sepertinya dosen sedang melihat daftar nama mahasiswa.)</item>
+        <item>(Kira-kira apa yang akan dia lakukan?)</item>
+        <item>chara6</item>
+        <item>Saya akan membagi kalian menjadi beberapa kelompok.</item>
+        <item>Cobalah kalian lakukan diskusi antar kelompok tentang slide yang saya berikan kemarin.</item>
+        <item>Sekarang, akan saya akan menyebutkan nama-nama untuk tiap kelompok.</item>
+        <item>chara6end</item>
+        <item>(Dosen mulai menyebutkan nama dan nomor kelompok.)</item>
+        <item>(Kamu mendengar namamu, dan kamu masuk ke kelompok 3.)</item>
+        <item>chara6</item>
+        <item>Baiklah, silahkan kalian berkumpul dengan kelompok masing-masing.</item>
+        <item>Dan coba berdiskusi dengan kelompok kalian untuk mengukur kemampuan masing-masing.</item>
+        <item>chara6end</item>
+        <item>(Kamu mencoba berdiskusi anggota kelompokmu yang lain.)</item>
+        <item>(Kamu mencoba mendiskusikan tentang sistem.</item>
+        <item>chara1</item>
+        <item>Hm, menurutku sistem adalah…</item>
+        <item>chara1end</item>
+        <item>(Diskusi kelompokmu terus berlanjut.)</item>
+        <item>addtime1</item>
+        <item>chara6</item>
+        <item>Untuk hari ini, saya sudahi pertemuan sampai disini.</item>
+        <item>Saya mendapat panggilan untuk mengikuti rapat, saya harap kalian semua dapat melanjutkan pembelajaran secara mandiri.</item>
+        <item>Untuk minggu depan, akan saya adakan ulangan.</item>
+        <item>Jadi, saya harap kalian dapat mempersiapkan diri dengan sebaik mungkin.</item>
+        <item>chara6end</item>
+        <item>(Dosen terlihat seperti sedang terburu-buru.)</item>
+        <item>(Teman-teman sekelasmu terlihat mulai bersiap meninggalkan ruangan.)</item>
+        <item>(Kamu pergi meninggalkan ruangan.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi5_9">
+        <item>start</item>
+        <item>(Terlihat kelas sudah dimulai.)</item>
+        <item>(Kamu bergegas masuk ke dalam kelas.)</item>
+        <item>bg5end</item>
+        <item>bg10</item>
+        <item>(Sepertinya dosen sedang melihat daftar nama mahasiswa.)</item>
+        <item>(Kira-kira apa yang akan dia lakukan?)</item>
+        <item>chara6</item>
+        <item>Saya akan membagi kalian menjadi beberapa kelompok.</item>
+        <item>Cobalah kalian lakukan diskusi antar kelompok tentang slide yang saya berikan kemarin.</item>
+        <item>Sekarang, akan saya akan menyebutkan nama-nama untuk tiap kelompok.</item>
+        <item>chara6end</item>
+        <item>(Dosen mulai menyebutkan nama dan nomor kelompok.)</item>
+        <item>(Kamu mendengar namamu, dan kamu masuk ke kelompok 3.)</item>
+        <item>chara6</item>
+        <item>Baiklah, silahkan kalian berkumpul dengan kelompok masing-masing.</item>
+        <item>Dan coba berdiskusi dengan kelompok kalian untuk mengukur kemampuan masing-masing.</item>
+        <item>chara6end</item>
+        <item>(Kamu mencoba berdiskusi anggota kelompokmu yang lain.)</item>
+        <item>(Kamu mencoba mendiskusikan tentang sistem.</item>
+        <item>chara1</item>
+        <item>Hm, menurutku sistem adalah…</item>
+        <item>chara1end</item>
+        <item>(Diskusi kelompokmu terus berlanjut.)</item>
+        <item>addtime1</item>
+        <item>chara6</item>
+        <item>Untuk hari ini, saya sudahi pertemuan sampai disini.</item>
+        <item>Saya mendapat panggilan untuk mengikuti rapat, saya harap kalian semua dapat melanjutkan pembelajaran secara mandiri.</item>
+        <item>Untuk minggu depan, akan saya adakan ulangan.</item>
+        <item>Jadi, saya harap kalian dapat mempersiapkan diri dengan sebaik mungkin.</item>
+        <item>chara6end</item>
+        <item>(Dosen terlihat seperti sedang terburu-buru.)</item>
+        <item>(Teman-teman sekelasmu terlihat mulai bersiap meninggalkan ruangan.)</item>
+        <item>(Kamu pergi meninggalkan ruangan.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi5_10">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Sepertinya kelas sudah selesai.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi5_11">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi5_12">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi5_13">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi5_14">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi5_15">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi5_16">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi5_17">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi5_7"> Ruang 2.14 luar
+        <item>start</item>0
+        <item>(Kelas masih belum dimulai.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Menunggu di dalam kelas.</item>
+        <item>goto11</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto8</item>
+        <item>quisgotoend</item>
+        <item>block</item>8
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>11
+        <item>(Kamu memutuskan untuk menunggu hingga kelas dimulai.)</item>
+        <item>bg10</item>
+        <item>(Kamu mencoba mengingat kembali materi-materi yang telah kamu pelajari untuk menghabiskan waktu.)</item>
+        <item>addtime1</item>
+        <item>(Terdengar langkah kaki mendekati ruangan.)</item>
+        <item>chara6</item>
+        <item>Kumpulkan tas kalian, setelah itu saya akan mulai membagikan soal.</item>
+        <item>chara6end</item>
+        <item>(Kamu dan seluruh teman sekelasmu mulai mengumpulkan tas masing-masing.)</item>
+        <item>chara6</item>
+        <item>Saya akan mulai membagikan soal ulangan hari ini, kerjakanlah dengan sebaik mungkin.</item>
+        <item>chara6end</item>
+        <item>(Dosen mulai membagikan soal ulangan dan lembar jawaban.)</item>
+        <item>(Setelah mendapatkan lembar jawaban, kamu mulai mengisi nama, NPM, serta mata kuliah yang sedang diuji.)</item>
+        <item>(Kamu mulai melihat soal yang ada.)</item>
+        <item>(Terdapat 5 buah soal pada ulangan ini.)</item>
+        <item>(Kamu mulai membaca soal pertama.)</item>
+        <item>quismateri</item>
+        <item>soal_id_1</item>
+        <item>Apa yang dimaksud dengan sistem?</item>
+        <item>materi_0_title</item>
+        <item>materi_0_substring_0_125</item>
+        <item>materi_1_substring_0_175</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_3_title</item>
+        <item>materi_3_substring_0_64</item>
+        <item>jawaban</item>
+        <item>materi_1_substring_0_175</item>
+        <item>quismateriend</item>
+        <item>(Setelah menjawab pertanyaan tersebut, kamu melanjutkan ke pertanyaan berikutnya.)</item>
+        <item>addtime1</item>
+        <item>quismateri</item>
+        <item>soal_id_2</item>
+        <item>Jelaskan perbedaan antara data dan informasi?</item>
+        <item>materi_1_substring_0_175</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_2_substring_304_440</item>
+        <item>materi_3_substring_0_64</item>
+        <item>materi_4_title</item>
+        <item>jawaban</item>
+        <item>materi_2_substring_304_440</item>
+        <item>quismateriend</item>
+        <item>(Sejauh ini sepertinya kamu dapat mengerjakan soal dengan baik.)</item>
+        <item>(Kamu mulai mengerjakan soal berikutnya.)</item>
+        <item>quismateri</item>
+        <item>soal_id_3</item>
+        <item>Sebutkan 5 area pengetahuan dalam sistem informasi!</item>
+        <item>materi_0_title</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_3_substring_0_64</item>
+        <item>materi_4_title</item>
+        <item>materi_4_substring_0_119</item>
+        <item>jawaban</item>
+        <item>materi_4_substring_0_119</item>
+        <item>quismateriend</item>
+        <item>(Tersisa 2 soal yang belum terjawab.)</item>
+        <item>addtime1</item>
+        <item>(Waktu ulangan yang diberikan hanya tersisa 1 jam.)</item>
+        <item>(Kamu bergegas memeriksa pertanyaan berikutnya.)</item>
+        <item>quismateri</item>
+        <item>soal_id_4</item>
+        <item>Keunggulan apa yang dapat diberikan oleh sistem informasi dalam sebuah proses bisnis?</item>
+        <item>materi_3_title</item>
+        <item>materi_1_substring_0_175</item>
+        <item>materi_3_substring_79_180</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_2_substring_304_440</item>
+        <item>materi_3_substring_0_64</item>
+        <item>materi_4_title</item>
+        <item>jawaban</item>
+        <item>materi_3_substring_79_180</item>
+        <item>quismateriend</item>
+        <item>(Pertanyaan terakhir!)</item>
+        <item>quismateri</item>
+        <item>soal_id_5</item>
+        <item>Berikan penjelasan mengenai SCL!</item>
+        <item>materi_0_title</item>
+        <item>materi_0_substring_0_125</item>
+        <item>materi_1_substring_0_175</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_3_title</item>
+        <item>materi_3_substring_0_64</item>
+        <item>jawaban</item>
+        <item>materi_0_substring_0_125</item>
+        <item>quismateriend</item>
+        <item>(Kamu menyelesaikan semua pertanyaan.)</item>
+        <item>addtime1</item>
+        <item>chara6</item>
+        <item>Baiklah, waktunya sudah habis.</item>
+        <item>Kumpulkan lembar pertanyaan dan jawaban sekarang.</item>
+        <item>chara6end</item>
+        <item>(Kamu mengumpulkan lembar pertanyaan dan jawaban milikmu.)</item>
+        <item>chara6</item>
+        <item>Hasil ulangan akan saya bagikan minggu depan.</item>
+        <item>Saya harap kalian semua datang tepat.</item>
+        <item>chara6end</item>
+        <item>(Teman-teman sekelas bersiap untuk meninggalkan ruangan.)</item>
+        <item>(Kamu memutuskan untuk pergi meninggalkan ruangan.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi5_8"> Ruang 2.14 luar
+        <item>start</item>
+        <item>(Ulangan akan segera dimulai.)</item>
+        <item>(Kamu datang sebelum pengawas memasuki ruang kelas.)</item>
+        <item>bg5end</item>
+        <item>bg10</item>
+        <item>(Kamu menyiapkan keperluan-keperluanmu untuk ulangan.)</item>
+        <item>(Terdengar langkah kaki mendekati ruangan.)</item>
+        <item>chara6</item>
+        <item>Kumpulkan tas kalian, setelah itu saya akan mulai membagikan soal.</item>
+        <item>chara6end</item>
+        <item>(Kamu dan seluruh teman sekelasmu mulai mengumpulkan tas masing-masing.)</item>
+        <item>chara6</item>
+        <item>Saya akan mulai membagikan soal ulangan hari ini, kerjakanlah dengan sebaik mungkin.</item>
+        <item>chara6end</item>
+        <item>(Dosen mulai membagikan soal ulangan dan lembar jawaban.)</item>
+        <item>(Setelah mendapatkan lembar jawaban, kamu mulai mengisi nama, NPM, serta mata kuliah yang sedang diuji.)</item>
+        <item>(Kamu mulai melihat soal yang ada.)</item>
+        <item>(Terdapat 5 buah soal pada ulangan ini.)</item>
+        <item>(Kamu mulai membaca soal pertama.)</item>
+        <item>quismateri</item>
+        <item>soal_id_1</item>
+        <item>Apa yang dimaksud dengan sistem?</item>
+        <item>materi_0_title</item>
+        <item>materi_0_substring_0_125</item>
+        <item>materi_1_substring_0_175</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_3_title</item>
+        <item>materi_3_substring_0_64</item>
+        <item>jawaban</item>
+        <item>materi_1_substring_0_175</item>
+        <item>quismateriend</item>
+        <item>(Setelah menjawab pertanyaan tersebut, kamu melanjutkan ke pertanyaan berikutnya.)</item>
+        <item>addtime1</item>
+        <item>quismateri</item>
+        <item>soal_id_2</item>
+        <item>Jelaskan perbedaan antara data dan informasi?</item>
+        <item>materi_1_substring_0_175</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_2_substring_304_440</item>
+        <item>materi_3_substring_0_64</item>
+        <item>materi_4_title</item>
+        <item>jawaban</item>
+        <item>materi_2_substring_304_440</item>
+        <item>quismateriend</item>
+        <item>(Sejauh ini sepertinya kamu dapat mengerjakan soal dengan baik.)</item>
+        <item>(Kamu mulai mengerjakan soal berikutnya.)</item>
+        <item>quismateri</item>
+        <item>soal_id_3</item>
+        <item>Sebutkan 5 area pengetahuan dalam sistem informasi!</item>
+        <item>materi_0_title</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_3_substring_0_64</item>
+        <item>materi_4_title</item>
+        <item>materi_4_substring_0_119</item>
+        <item>jawaban</item>
+        <item>materi_4_substring_0_119</item>
+        <item>quismateriend</item>
+        <item>(Tersisa 2 soal yang belum terjawab.)</item>
+        <item>addtime1</item>
+        <item>(Waktu ulangan yang diberikan hanya tersisa 1 jam.)</item>
+        <item>(Kamu bergegas memeriksa pertanyaan berikutnya.)</item>
+        <item>quismateri</item>
+        <item>soal_id_4</item>
+        <item>Keunggulan apa yang dapat diberikan oleh sistem informasi dalam sebuah proses bisnis?</item>
+        <item>materi_3_title</item>
+        <item>materi_1_substring_0_175</item>
+        <item>materi_3_substring_79_180</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_2_substring_304_440</item>
+        <item>materi_3_substring_0_64</item>
+        <item>materi_4_title</item>
+        <item>jawaban</item>
+        <item>materi_3_substring_79_180</item>
+        <item>quismateriend</item>
+        <item>(Pertanyaan terakhir!)</item>
+        <item>quismateri</item>
+        <item>soal_id_5</item>
+        <item>Berikan penjelasan mengenai SCL!</item>
+        <item>materi_0_title</item>
+        <item>materi_0_substring_0_125</item>
+        <item>materi_1_substring_0_175</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_3_title</item>
+        <item>materi_3_substring_0_64</item>
+        <item>jawaban</item>
+        <item>materi_0_substring_0_125</item>
+        <item>quismateriend</item>
+        <item>(Kamu menyelesaikan semua pertanyaan.)</item>
+        <item>addtime1</item>
+        <item>chara6</item>
+        <item>Baiklah, waktunya sudah habis.</item>
+        <item>Kumpulkan lembar pertanyaan dan jawaban sekarang.</item>
+        <item>chara6end</item>
+        <item>(Kamu mengumpulkan lembar pertanyaan dan jawaban milikmu.)</item>
+        <item>chara6</item>
+        <item>Hasil ulangan akan saya bagikan minggu depan.</item>
+        <item>Saya harap kalian semua datang tepat.</item>
+        <item>chara6end</item>
+        <item>(Teman-teman sekelas bersiap untuk meninggalkan ruangan.)</item>
+        <item>(Kamu memutuskan untuk pergi meninggalkan ruangan.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi5_9"> Ruang 2.14 luar
+        <item>start</item>
+        <item>(Ulangan telah dimulai.)</item>
+        <item>(Kamu bergegas memasuki ruang kelas.)</item>
+        <item>bg5end</item>
+        <item>bg10</item>
+        <item>chara6</item>
+        <item>Kumpulkan tasmu di depan, setelah itu silahkan ambil soal dan lembar jawaban.</item>
+        <item>Walaupun kamu datang terlambat, tidak ada tambahan waktu yang saya berikan.</item>
+        <item>chara6end</item>
+        <item>(Kamu meletakkan tasmu dan mengambil lembar soal serta lembar jawaban.)</item>
+        <item>chara6</item>
+        <item>Kerjakanlah sebaik mungkin.</item>
+        <item>chara6end</item>
+        <item>(Setelah mendapatkan lembar jawaban, kamu mulai mengisi nama, NPM, serta mata kuliah yang sedang diuji.)</item>
+        <item>(Kamu mulai melihat soal yang ada.)</item>
+        <item>(Terdapat 5 buah soal pada ulangan ini.)</item>
+        <item>(Kamu mulai membaca soal pertama.)</item>
+        <item>quismateri</item>
+        <item>soal_id_1</item>
+        <item>Apa yang dimaksud dengan sistem?</item>
+        <item>materi_0_title</item>
+        <item>materi_0_substring_0_125</item>
+        <item>materi_1_substring_0_175</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_3_title</item>
+        <item>materi_3_substring_0_64</item>
+        <item>jawaban</item>
+        <item>materi_1_substring_0_175</item>
+        <item>quismateriend</item>
+        <item>(Setelah menjawab pertanyaan tersebut, kamu melanjutkan ke pertanyaan berikutnya.)</item>
+        <item>addtime1</item>
+        <item>quismateri</item>
+        <item>soal_id_2</item>
+        <item>Jelaskan perbedaan antara data dan informasi?</item>
+        <item>materi_1_substring_0_175</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_2_substring_304_440</item>
+        <item>materi_3_substring_0_64</item>
+        <item>materi_4_title</item>
+        <item>jawaban</item>
+        <item>materi_2_substring_304_440</item>
+        <item>quismateriend</item>
+        <item>(Sejauh ini sepertinya kamu dapat mengerjakan soal dengan baik.)</item>
+        <item>(Kamu mulai mengerjakan soal berikutnya.)</item>
+        <item>quismateri</item>
+        <item>soal_id_3</item>
+        <item>Sebutkan 5 area pengetahuan dalam sistem informasi!</item>
+        <item>materi_0_title</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_3_substring_0_64</item>
+        <item>materi_4_title</item>
+        <item>materi_4_substring_0_119</item>
+        <item>jawaban</item>
+        <item>materi_4_substring_0_119</item>
+        <item>quismateriend</item>
+        <item>(Tersisa 2 soal yang belum terjawab.)</item>
+        <item>addtime1</item>
+        <item>chara6</item>
+        <item>Baiklah, waktunya sudah habis.</item>
+        <item>Kumpulkan lembar pertanyaan dan jawaban sekarang.</item>
+        <item>chara6end</item>
+        <item>(Kamu mengumpulkan lembar pertanyaan dan jawaban milikmu.)</item>
+        <item>chara6</item>
+        <item>Hasil ulangan akan saya bagikan minggu depan.</item>
+        <item>Saya harap kalian semua datang tepat.</item>
+        <item>chara6end</item>
+        <item>(Teman-teman sekelas bersiap untuk meninggalkan ruangan.)</item>
+        <item>(Kamu memutuskan untuk pergi meninggalkan ruangan.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi5_10"> Ruang 2.14 luar
+        <item>start</item>
+        <item>(Ulangan telah dimulai.)</item>
+        <item>(Kamu bergegas memasuki ruang kelas.)</item>
+        <item>bg5end</item>
+        <item>bg10</item>
+        <item>chara6</item>
+        <item>Kumpulkan tasmu di depan, setelah itu silahkan ambil soal dan lembar jawaban.</item>
+        <item>Walaupun kamu datang terlambat, tidak ada tambahan waktu yang saya berikan.</item>
+        <item>chara6end</item>
+        <item>(Kamu meletakkan tasmu dan mengambil lembar soal serta lembar jawaban.)</item>
+        <item>chara6</item>
+        <item>Kerjakanlah sebaik mungkin.</item>
+        <item>chara6end</item>
+        <item>(Setelah mendapatkan lembar jawaban, kamu mulai mengisi nama, NPM, serta mata kuliah yang sedang diuji.)</item>
+        <item>(Kamu mulai melihat soal yang ada.)</item>
+        <item>(Terdapat 5 buah soal pada ulangan ini.)</item>
+        <item>(Kamu mulai membaca soal pertama.)</item>
+        <item>quismateri</item>
+        <item>soal_id_1</item>
+        <item>Apa yang dimaksud dengan sistem?</item>
+        <item>materi_0_title</item>
+        <item>materi_0_substring_0_125</item>
+        <item>materi_1_substring_0_175</item>
+        <item>materi_2_substring_5_165</item>
+        <item>materi_2_substring_180_280</item>
+        <item>materi_3_title</item>
+        <item>materi_3_substring_0_64</item>
+        <item>jawaban</item>
+        <item>materi_1_substring_0_175</item>
+        <item>quismateriend</item>
+        <item>(Setelah menjawab pertanyaan tersebut, kamu melanjutkan ke pertanyaan berikutnya.)</item>
+        <item>addtime1</item>
+        <item>chara6</item>
+        <item>Baiklah, waktunya sudah habis.</item>
+        <item>Kumpulkan lembar pertanyaan dan jawaban sekarang.</item>
+        <item>chara6end</item>
+        <item>(Kamu hanya dapat mengerjakan 1 soal.)</item>
+        <item>(Kamu mengumpulkan lembar pertanyaan dan jawaban milikmu.)</item>
+        <item>chara6</item>
+        <item>Hasil ulangan akan saya bagikan minggu depan.</item>
+        <item>Saya harap kalian semua datang tepat.</item>
+        <item>chara6end</item>
+        <item>(Teman-teman sekelas bersiap untuk meninggalkan ruangan.)</item>
+        <item>(Kamu memutuskan untuk pergi meninggalkan ruangan.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi5_11">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi5_12">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi5_13">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi5_14">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi5_15">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi5_16">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi5_17">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+</resources>

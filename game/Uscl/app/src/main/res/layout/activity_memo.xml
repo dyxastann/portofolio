@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemoActivity"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:text="Memo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/tugas"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:text="Tugas"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        />
+
+    <Button
+        android:id="@+id/materi"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:text="Materi"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        />
+
+    <Button
+        android:id="@+id/rekap"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:text="Rekapitulasi"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:text="Back"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        />
+
+</LinearLayout>

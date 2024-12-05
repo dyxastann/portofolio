@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alur_1_Lokasi6_8">
+        <item>start</item>
+        <item>(Kelas akan segera dimulai.)</item>
+        <item>(Bergegaslah ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi6_9">
+        <item>start</item>
+        <item>(Ada seseorang berdiri didepan \'Lab. Komputer\'.)</item>
+        <item>chara5</item>
+        <item>Uhhh, \'Lab.\' sedang dipakai kelas lain.</item>
+        <item>(Mulai bergumam dengan nada kesal.)</item>
+        <item>chara5end</item>
+        <item>(Sepertinya \'Lab Komputer\' sedang penuh.)</item>
+        <item>(Lebih baik kamu mencari informasi ditempat lain.)</item>
+        <item>end</item>
+    </string-array>s
+
+    <string-array name="alur_1_Lokasi6_10">
+        <item>start</item>
+        <item>(Lebih baik kamu bergegas ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi6_11">
+        <item>start</item>
+        <item>chara2</item>
+        <item>Main USCL ah.</item>
+        <item>chara2end</item>
+        <item>( … )</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi6_12">
+        <item>start</item>0
+        <item>(Lab. Komputer sedang tidak penuh, kamu dapat menggunakan salah satu komputer disini.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang akan kamu lakukan?)</item>
+        <item>Masuk kedalam.</item>
+        <item>goto11</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>9
+        <item>(Kamu memutuskan untuk pergi.)</item>10
+        <item>end</item>
+        <item>block</item>11
+        <item>(Kamu memutuskan untuk masuk.)</item>
+        <item>bg6end</item>
+        <item>bg11</item>
+        <item>(Kamu menyalakan salah satu komputer.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>25
+        <item>(Kamu membuka salah satu game yang ada.)</item>
+        <item>addtime1</item>
+        <item>(Tak terasa waktu berlalu.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>32
+        <item>(Kamu memutuskan untuk mencari materi.)</item>
+        <item>(Kamu membuka mesin pencarian pada browser.)</item>
+        <item>quisgoto</item>
+        <item>(Materi apa yang ingin kamu cari?)</item>
+        <item>skipif_materi0_smallerthan_1</item>
+        <item>Apa itu student-center learning?</item>
+        <item>goto66</item>
+        <item>skipif_materi1_smallerthan_1</item>150
+        <item>Apa itu sistem?</item>
+        <item>goto72</item>
+        <item>skipif_materi2_smallerthan_1</item>
+        <item>Apa perbedaan data dan informasi?</item>
+        <item>goto84</item>
+        <item>skipif_materi3_smallerthan_1</item>
+        <item>Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?</item>
+        <item>goto100</item>
+        <item>skipif_materi4_smallerthan_1</item>
+        <item>Apa saja 5 area pengetahuan dalam sistem informasi?</item>160
+        <item>goto116</item>
+        <item>(Tidak jadi mencari materi.)</item>
+        <item>goto55</item>
+        <item>quisgotoend</item>
+        <item>block</item>55
+        <item>(Kamu menutup browser.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>66
+        <item>(Kamu memasukan keyword \'Apa itu student-center learning?\')</item>
+        <item>(Penjelasan yang ada hampir sama dengan apa yang dijelaskan oleh dosenmu.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>74
+        <item>(Kamu memasukan keyword \'Apa itu sistem?\')</item>190
+        <item>(Penjelasan yang ada hampir sama dengan penjelasan yang ada pada slide yang diberikan oleh dosenmu.)</item>191
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>82
+        <item>(Kamu memasukan keyword \'Apa perbedaan data dan informasi?\')</item>
+        <item>(Kamu menemukan penjelasan mengenai \'data\'.)</item>
+        <item>(Sepertinya jika hanya melihat penjelasan tentang \'data\', kamu kurang dapat memahami perbedaannya.)</item>
+        <item>(Kamu memutuskan mencari penjelasan tentang \'informasi\'.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menemukan penjelasan mengenai \'informasi\'.)</item>
+        <item>(Kamu mencoba membandingkan perbedaan diantara keduanya.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>( ……… )</item>
+        <item>(Kamu mulai dapat melihat perbedaan diantara keduanya.)</item>
+        <item>addState_materi_2</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>100
+        <item>(Kamu memasukan keyword \'Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?\')</item>230
+        <item>( … )</item>
+        <item>(Kamu diarahkan kesebuah website organisasi MLM.)</item>
+        <item>(Sepertinya kamu tidak dapat menemukan apa yang kamu cari disini.)</item>
+        <item>(Kamu mencoba mencari di website lain.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>(Kali ini kamu menemukan website frenchise tahu bulat.)</item>
+        <item>addtime1</item>
+        <item>(Sepertinya kamu kesulitan untuk mencari materi ini sendiri.)</item>240
+        <item>(Sebaiknya kamu coba tanyakan ke orang yang lebih berpengalaman tentang bisnis untuk hal ini.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>116
+        <item>(Kamu memasukan keyword \'Apa saja 5 area pengetahuan dalam sistem informasi?\')</item>
+        <item>( … )</item>
+        <item>(Kamu menemukan sebuah jurnal penelitian yang membahas hal tersebut.)</item>
+        <item>(Terlihat ini adalah sebuah jurnal dari sebuah perguruan tinggi ternama.)</item>
+        <item>(Kamu mencoba memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu berhasil memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi6_13">
+        <item>start</item>0
+        <item>(Lab. Komputer sedang tidak penuh, kamu dapat menggunakan salah satu komputer disini.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang akan kamu lakukan?)</item>
+        <item>Masuk kedalam.</item>
+        <item>goto11</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>9
+        <item>(Kamu memutuskan untuk pergi.)</item>10
+        <item>end</item>
+        <item>block</item>11
+        <item>(Kamu memutuskan untuk masuk.)</item>
+        <item>bg6end</item>
+        <item>bg11</item>
+        <item>(Kamu menyalakan salah satu komputer.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>25
+        <item>(Kamu membuka salah satu game yang ada.)</item>
+        <item>addtime1</item>
+        <item>(Tak terasa waktu berlalu.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>32
+        <item>(Kamu memutuskan untuk mencari materi.)</item>
+        <item>(Kamu membuka mesin pencarian pada browser.)</item>
+        <item>quisgoto</item>
+        <item>(Materi apa yang ingin kamu cari?)</item>
+        <item>skipif_materi0_smallerthan_1</item>
+        <item>Apa itu student-center learning?</item>
+        <item>goto66</item>
+        <item>skipif_materi1_smallerthan_1</item>150
+        <item>Apa itu sistem?</item>
+        <item>goto72</item>
+        <item>skipif_materi2_smallerthan_1</item>
+        <item>Apa perbedaan data dan informasi?</item>
+        <item>goto84</item>
+        <item>skipif_materi3_smallerthan_1</item>
+        <item>Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?</item>
+        <item>goto100</item>
+        <item>skipif_materi4_smallerthan_1</item>
+        <item>Apa saja 5 area pengetahuan dalam sistem informasi?</item>160
+        <item>goto116</item>
+        <item>(Tidak jadi mencari materi.)</item>
+        <item>goto55</item>
+        <item>quisgotoend</item>
+        <item>block</item>55
+        <item>(Kamu menutup browser.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>66
+        <item>(Kamu memasukan keyword \'Apa itu student-center learning?\')</item>
+        <item>(Penjelasan yang ada hampir sama dengan apa yang dijelaskan oleh dosenmu.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>74
+        <item>(Kamu memasukan keyword \'Apa itu sistem?\')</item>190
+        <item>(Penjelasan yang ada hampir sama dengan penjelasan yang ada pada slide yang diberikan oleh dosenmu.)</item>191
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>82
+        <item>(Kamu memasukan keyword \'Apa perbedaan data dan informasi?\')</item>
+        <item>(Kamu menemukan penjelasan mengenai \'data\'.)</item>
+        <item>(Sepertinya jika hanya melihat penjelasan tentang \'data\', kamu kurang dapat memahami perbedaannya.)</item>
+        <item>(Kamu memutuskan mencari penjelasan tentang \'informasi\'.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menemukan penjelasan mengenai \'informasi\'.)</item>
+        <item>(Kamu mencoba membandingkan perbedaan diantara keduanya.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>( ……… )</item>
+        <item>(Kamu mulai dapat melihat perbedaan diantara keduanya.)</item>
+        <item>addState_materi_2</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>100
+        <item>(Kamu memasukan keyword \'Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?\')</item>230
+        <item>( … )</item>
+        <item>(Kamu diarahkan kesebuah website organisasi MLM.)</item>
+        <item>(Sepertinya kamu tidak dapat menemukan apa yang kamu cari disini.)</item>
+        <item>(Kamu mencoba mencari di website lain.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>(Kali ini kamu menemukan website frenchise tahu bulat.)</item>
+        <item>addtime1</item>
+        <item>(Sepertinya kamu kesulitan untuk mencari materi ini sendiri.)</item>240
+        <item>(Sebaiknya kamu coba tanyakan ke orang yang lebih berpengalaman tentang bisnis untuk hal ini.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>116
+        <item>(Kamu memasukan keyword \'Apa saja 5 area pengetahuan dalam sistem informasi?\')</item>
+        <item>( … )</item>
+        <item>(Kamu menemukan sebuah jurnal penelitian yang membahas hal tersebut.)</item>
+        <item>(Terlihat ini adalah sebuah jurnal dari sebuah perguruan tinggi ternama.)</item>
+        <item>(Kamu mencoba memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu berhasil memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi6_14">
+        <item>start</item>0
+        <item>(Lab. Komputer sedang tidak penuh, kamu dapat menggunakan salah satu komputer disini.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang akan kamu lakukan?)</item>
+        <item>Masuk kedalam.</item>
+        <item>goto11</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>9
+        <item>(Kamu memutuskan untuk pergi.)</item>10
+        <item>end</item>
+        <item>block</item>11
+        <item>(Kamu memutuskan untuk masuk.)</item>
+        <item>bg6end</item>
+        <item>bg11</item>
+        <item>(Kamu menyalakan salah satu komputer.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>25
+        <item>(Kamu membuka salah satu game yang ada.)</item>
+        <item>addtime1</item>
+        <item>(Tak terasa waktu berlalu.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>32
+        <item>(Kamu memutuskan untuk mencari materi.)</item>
+        <item>(Kamu membuka mesin pencarian pada browser.)</item>
+        <item>quisgoto</item>
+        <item>(Materi apa yang ingin kamu cari?)</item>
+        <item>skipif_materi0_smallerthan_1</item>
+        <item>Apa itu student-center learning?</item>
+        <item>goto66</item>
+        <item>skipif_materi1_smallerthan_1</item>150
+        <item>Apa itu sistem?</item>
+        <item>goto72</item>
+        <item>skipif_materi2_smallerthan_1</item>
+        <item>Apa perbedaan data dan informasi?</item>
+        <item>goto84</item>
+        <item>skipif_materi3_smallerthan_1</item>
+        <item>Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?</item>
+        <item>goto100</item>
+        <item>skipif_materi4_smallerthan_1</item>
+        <item>Apa saja 5 area pengetahuan dalam sistem informasi?</item>160
+        <item>goto116</item>
+        <item>(Tidak jadi mencari materi.)</item>
+        <item>goto55</item>
+        <item>quisgotoend</item>
+        <item>block</item>55
+        <item>(Kamu menutup browser.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>66
+        <item>(Kamu memasukan keyword \'Apa itu student-center learning?\')</item>
+        <item>(Penjelasan yang ada hampir sama dengan apa yang dijelaskan oleh dosenmu.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>74
+        <item>(Kamu memasukan keyword \'Apa itu sistem?\')</item>190
+        <item>(Penjelasan yang ada hampir sama dengan penjelasan yang ada pada slide yang diberikan oleh dosenmu.)</item>191
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>82
+        <item>(Kamu memasukan keyword \'Apa perbedaan data dan informasi?\')</item>
+        <item>(Kamu menemukan penjelasan mengenai \'data\'.)</item>
+        <item>(Sepertinya jika hanya melihat penjelasan tentang \'data\', kamu kurang dapat memahami perbedaannya.)</item>
+        <item>(Kamu memutuskan mencari penjelasan tentang \'informasi\'.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menemukan penjelasan mengenai \'informasi\'.)</item>
+        <item>(Kamu mencoba membandingkan perbedaan diantara keduanya.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>( ……… )</item>
+        <item>(Kamu mulai dapat melihat perbedaan diantara keduanya.)</item>
+        <item>addState_materi_2</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>100
+        <item>(Kamu memasukan keyword \'Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?\')</item>230
+        <item>( … )</item>
+        <item>(Kamu diarahkan kesebuah website organisasi MLM.)</item>
+        <item>(Sepertinya kamu tidak dapat menemukan apa yang kamu cari disini.)</item>
+        <item>(Kamu mencoba mencari di website lain.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>(Kali ini kamu menemukan website frenchise tahu bulat.)</item>
+        <item>addtime1</item>
+        <item>(Sepertinya kamu kesulitan untuk mencari materi ini sendiri.)</item>240
+        <item>(Sebaiknya kamu coba tanyakan ke orang yang lebih berpengalaman tentang bisnis untuk hal ini.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>116
+        <item>(Kamu memasukan keyword \'Apa saja 5 area pengetahuan dalam sistem informasi?\')</item>
+        <item>( … )</item>
+        <item>(Kamu menemukan sebuah jurnal penelitian yang membahas hal tersebut.)</item>
+        <item>(Terlihat ini adalah sebuah jurnal dari sebuah perguruan tinggi ternama.)</item>
+        <item>(Kamu mencoba memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu berhasil memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi6_15">
+        <item>start</item>
+        <item>(Terlihat kelas lain sedang menggunakan \'Lab.\'.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi6_16">
+        <item>start</item>
+        <item>(Terlihat kelas lain sedang menggunakan \'Lab.\'.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi6_17">
+        <item>start</item>
+        <item>(Terlihat kelas lain sedang menggunakan \'Lab.\'.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi6_7">
+        <item>start</item>
+        <item>(\'Lab.\' masih belum dibuka)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi6_8">
+        <item>start</item>
+        <item>(Terlihat kelas lain sedang menggunakan \'Lab.\'.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi6_9">
+        <item>start</item>
+        <item>(Terlihat kelas lain sedang menggunakan \'Lab.\'.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi6_10">
+        <item>start</item>
+        <item>(Terlihat kelas lain sedang menggunakan \'Lab.\'.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi6_11">
+        <item>start</item>
+        <item>(Terlihat kelas lain sedang menggunakan \'Lab.\'.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi6_12">
+        <item>start</item>0
+        <item>(Lab. Komputer sedang tidak penuh, kamu dapat menggunakan salah satu komputer disini.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang akan kamu lakukan?)</item>
+        <item>Masuk kedalam.</item>
+        <item>goto11</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>9
+        <item>(Kamu memutuskan untuk pergi.)</item>10
+        <item>end</item>
+        <item>block</item>11
+        <item>(Kamu memutuskan untuk masuk.)</item>
+        <item>bg6end</item>
+        <item>bg11</item>
+        <item>(Kamu menyalakan salah satu komputer.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>25
+        <item>(Kamu membuka salah satu game yang ada.)</item>
+        <item>addtime1</item>
+        <item>(Tak terasa waktu berlalu.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>32
+        <item>(Kamu memutuskan untuk mencari materi.)</item>
+        <item>(Kamu membuka mesin pencarian pada browser.)</item>
+        <item>quisgoto</item>
+        <item>(Materi apa yang ingin kamu cari?)</item>
+        <item>skipif_materi0_smallerthan_1</item>
+        <item>Apa itu student-center learning?</item>
+        <item>goto66</item>
+        <item>skipif_materi1_smallerthan_1</item>150
+        <item>Apa itu sistem?</item>
+        <item>goto72</item>
+        <item>skipif_materi2_smallerthan_1</item>
+        <item>Apa perbedaan data dan informasi?</item>
+        <item>goto84</item>
+        <item>skipif_materi3_smallerthan_1</item>
+        <item>Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?</item>
+        <item>goto100</item>
+        <item>skipif_materi4_smallerthan_1</item>
+        <item>Apa saja 5 area pengetahuan dalam sistem informasi?</item>160
+        <item>goto116</item>
+        <item>(Tidak jadi mencari materi.)</item>
+        <item>goto55</item>
+        <item>quisgotoend</item>
+        <item>block</item>55
+        <item>(Kamu menutup browser.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>66
+        <item>(Kamu memasukan keyword \'Apa itu student-center learning?\')</item>
+        <item>(Penjelasan yang ada hampir sama dengan apa yang dijelaskan oleh dosenmu.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>74
+        <item>(Kamu memasukan keyword \'Apa itu sistem?\')</item>190
+        <item>(Penjelasan yang ada hampir sama dengan penjelasan yang ada pada slide yang diberikan oleh dosenmu.)</item>191
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>82
+        <item>(Kamu memasukan keyword \'Apa perbedaan data dan informasi?\')</item>
+        <item>(Kamu menemukan penjelasan mengenai \'data\'.)</item>
+        <item>(Sepertinya jika hanya melihat penjelasan tentang \'data\', kamu kurang dapat memahami perbedaannya.)</item>
+        <item>(Kamu memutuskan mencari penjelasan tentang \'informasi\'.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menemukan penjelasan mengenai \'informasi\'.)</item>
+        <item>(Kamu mencoba membandingkan perbedaan diantara keduanya.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>( ……… )</item>
+        <item>(Kamu mulai dapat melihat perbedaan diantara keduanya.)</item>
+        <item>addState_materi_2</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>100
+        <item>(Kamu memasukan keyword \'Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?\')</item>230
+        <item>( … )</item>
+        <item>(Kamu diarahkan kesebuah website organisasi MLM.)</item>
+        <item>(Sepertinya kamu tidak dapat menemukan apa yang kamu cari disini.)</item>
+        <item>(Kamu mencoba mencari di website lain.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>(Kali ini kamu menemukan website frenchise tahu bulat.)</item>
+        <item>addtime1</item>
+        <item>(Sepertinya kamu kesulitan untuk mencari materi ini sendiri.)</item>240
+        <item>(Sebaiknya kamu coba tanyakan ke orang yang lebih berpengalaman tentang bisnis untuk hal ini.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>116
+        <item>(Kamu memasukan keyword \'Apa saja 5 area pengetahuan dalam sistem informasi?\')</item>
+        <item>( … )</item>
+        <item>(Kamu menemukan sebuah jurnal penelitian yang membahas hal tersebut.)</item>
+        <item>(Terlihat ini adalah sebuah jurnal dari sebuah perguruan tinggi ternama.)</item>
+        <item>(Kamu mencoba memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu berhasil memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi6_13">
+        <item>start</item>0
+        <item>(Lab. Komputer sedang tidak penuh, kamu dapat menggunakan salah satu komputer disini.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang akan kamu lakukan?)</item>
+        <item>Masuk kedalam.</item>
+        <item>goto11</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>9
+        <item>(Kamu memutuskan untuk pergi.)</item>10
+        <item>end</item>
+        <item>block</item>11
+        <item>(Kamu memutuskan untuk masuk.)</item>
+        <item>bg6end</item>
+        <item>bg11</item>
+        <item>(Kamu menyalakan salah satu komputer.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>25
+        <item>(Kamu membuka salah satu game yang ada.)</item>
+        <item>addtime1</item>
+        <item>(Tak terasa waktu berlalu.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>32
+        <item>(Kamu memutuskan untuk mencari materi.)</item>
+        <item>(Kamu membuka mesin pencarian pada browser.)</item>
+        <item>quisgoto</item>
+        <item>(Materi apa yang ingin kamu cari?)</item>
+        <item>skipif_materi0_smallerthan_1</item>
+        <item>Apa itu student-center learning?</item>
+        <item>goto66</item>
+        <item>skipif_materi1_smallerthan_1</item>150
+        <item>Apa itu sistem?</item>
+        <item>goto72</item>
+        <item>skipif_materi2_smallerthan_1</item>
+        <item>Apa perbedaan data dan informasi?</item>
+        <item>goto84</item>
+        <item>skipif_materi3_smallerthan_1</item>
+        <item>Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?</item>
+        <item>goto100</item>
+        <item>skipif_materi4_smallerthan_1</item>
+        <item>Apa saja 5 area pengetahuan dalam sistem informasi?</item>160
+        <item>goto116</item>
+        <item>(Tidak jadi mencari materi.)</item>
+        <item>goto55</item>
+        <item>quisgotoend</item>
+        <item>block</item>55
+        <item>(Kamu menutup browser.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>66
+        <item>(Kamu memasukan keyword \'Apa itu student-center learning?\')</item>
+        <item>(Penjelasan yang ada hampir sama dengan apa yang dijelaskan oleh dosenmu.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>74
+        <item>(Kamu memasukan keyword \'Apa itu sistem?\')</item>190
+        <item>(Penjelasan yang ada hampir sama dengan penjelasan yang ada pada slide yang diberikan oleh dosenmu.)</item>191
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>82
+        <item>(Kamu memasukan keyword \'Apa perbedaan data dan informasi?\')</item>
+        <item>(Kamu menemukan penjelasan mengenai \'data\'.)</item>
+        <item>(Sepertinya jika hanya melihat penjelasan tentang \'data\', kamu kurang dapat memahami perbedaannya.)</item>
+        <item>(Kamu memutuskan mencari penjelasan tentang \'informasi\'.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menemukan penjelasan mengenai \'informasi\'.)</item>
+        <item>(Kamu mencoba membandingkan perbedaan diantara keduanya.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>( ……… )</item>
+        <item>(Kamu mulai dapat melihat perbedaan diantara keduanya.)</item>
+        <item>addState_materi_2</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>100
+        <item>(Kamu memasukan keyword \'Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?\')</item>230
+        <item>( … )</item>
+        <item>(Kamu diarahkan kesebuah website organisasi MLM.)</item>
+        <item>(Sepertinya kamu tidak dapat menemukan apa yang kamu cari disini.)</item>
+        <item>(Kamu mencoba mencari di website lain.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>(Kali ini kamu menemukan website frenchise tahu bulat.)</item>
+        <item>addtime1</item>
+        <item>(Sepertinya kamu kesulitan untuk mencari materi ini sendiri.)</item>240
+        <item>(Sebaiknya kamu coba tanyakan ke orang yang lebih berpengalaman tentang bisnis untuk hal ini.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>116
+        <item>(Kamu memasukan keyword \'Apa saja 5 area pengetahuan dalam sistem informasi?\')</item>
+        <item>( … )</item>
+        <item>(Kamu menemukan sebuah jurnal penelitian yang membahas hal tersebut.)</item>
+        <item>(Terlihat ini adalah sebuah jurnal dari sebuah perguruan tinggi ternama.)</item>
+        <item>(Kamu mencoba memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu berhasil memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi6_14">
+        <item>start</item>0
+        <item>(Lab. Komputer sedang tidak penuh, kamu dapat menggunakan salah satu komputer disini.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang akan kamu lakukan?)</item>
+        <item>Masuk kedalam.</item>
+        <item>goto11</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>9
+        <item>(Kamu memutuskan untuk pergi.)</item>10
+        <item>end</item>
+        <item>block</item>11
+        <item>(Kamu memutuskan untuk masuk.)</item>
+        <item>bg6end</item>
+        <item>bg11</item>
+        <item>(Kamu menyalakan salah satu komputer.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>25
+        <item>(Kamu membuka salah satu game yang ada.)</item>
+        <item>addtime1</item>
+        <item>(Tak terasa waktu berlalu.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>32
+        <item>(Kamu memutuskan untuk mencari materi.)</item>
+        <item>(Kamu membuka mesin pencarian pada browser.)</item>
+        <item>quisgoto</item>
+        <item>(Materi apa yang ingin kamu cari?)</item>
+        <item>skipif_materi0_smallerthan_1</item>
+        <item>Apa itu student-center learning?</item>
+        <item>goto66</item>
+        <item>skipif_materi1_smallerthan_1</item>150
+        <item>Apa itu sistem?</item>
+        <item>goto72</item>
+        <item>skipif_materi2_smallerthan_1</item>
+        <item>Apa perbedaan data dan informasi?</item>
+        <item>goto84</item>
+        <item>skipif_materi3_smallerthan_1</item>
+        <item>Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?</item>
+        <item>goto100</item>
+        <item>skipif_materi4_smallerthan_1</item>
+        <item>Apa saja 5 area pengetahuan dalam sistem informasi?</item>160
+        <item>goto116</item>
+        <item>(Tidak jadi mencari materi.)</item>
+        <item>goto55</item>
+        <item>quisgotoend</item>
+        <item>block</item>55
+        <item>(Kamu menutup browser.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Mencari materi.</item>
+        <item>goto32</item>
+        <item>Bermain game.</item>
+        <item>goto25</item>
+        <item>Matikan komputer dan pergi.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>66
+        <item>(Kamu memasukan keyword \'Apa itu student-center learning?\')</item>
+        <item>(Penjelasan yang ada hampir sama dengan apa yang dijelaskan oleh dosenmu.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>74
+        <item>(Kamu memasukan keyword \'Apa itu sistem?\')</item>190
+        <item>(Penjelasan yang ada hampir sama dengan penjelasan yang ada pada slide yang diberikan oleh dosenmu.)</item>191
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>82
+        <item>(Kamu memasukan keyword \'Apa perbedaan data dan informasi?\')</item>
+        <item>(Kamu menemukan penjelasan mengenai \'data\'.)</item>
+        <item>(Sepertinya jika hanya melihat penjelasan tentang \'data\', kamu kurang dapat memahami perbedaannya.)</item>
+        <item>(Kamu memutuskan mencari penjelasan tentang \'informasi\'.)</item>
+        <item>addtime1</item>
+        <item>(Kamu menemukan penjelasan mengenai \'informasi\'.)</item>
+        <item>(Kamu mencoba membandingkan perbedaan diantara keduanya.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>( ……… )</item>
+        <item>(Kamu mulai dapat melihat perbedaan diantara keduanya.)</item>
+        <item>addState_materi_2</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>100
+        <item>(Kamu memasukan keyword \'Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?\')</item>230
+        <item>( … )</item>
+        <item>(Kamu diarahkan kesebuah website organisasi MLM.)</item>
+        <item>(Sepertinya kamu tidak dapat menemukan apa yang kamu cari disini.)</item>
+        <item>(Kamu mencoba mencari di website lain.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>(Kali ini kamu menemukan website frenchise tahu bulat.)</item>
+        <item>addtime1</item>
+        <item>(Sepertinya kamu kesulitan untuk mencari materi ini sendiri.)</item>240
+        <item>(Sebaiknya kamu coba tanyakan ke orang yang lebih berpengalaman tentang bisnis untuk hal ini.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>116
+        <item>(Kamu memasukan keyword \'Apa saja 5 area pengetahuan dalam sistem informasi?\')</item>
+        <item>( … )</item>
+        <item>(Kamu menemukan sebuah jurnal penelitian yang membahas hal tersebut.)</item>
+        <item>(Terlihat ini adalah sebuah jurnal dari sebuah perguruan tinggi ternama.)</item>
+        <item>(Kamu mencoba memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu berhasil memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>(Kamu menutup browser.)</item>220
+        <item>(Sebaiknya kamu bergantian dengan yang lain.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi6_15">
+        <item>start</item>
+        <item>(Terlihat kelas lain sedang menggunakan \'Lab.\'.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi6_16">
+        <item>start</item>
+        <item>(Terlihat kelas lain sedang menggunakan \'Lab.\'.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi6_17">
+        <item>start</item>
+        <item>(Terlihat kelas lain sedang menggunakan \'Lab.\'.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi6_7">
+        <item>start</item>
+        <item>(Terdapat pemberitahuan di depan pintu.)</item>
+        <item>(Tertulis untuk minggu ini \'Lab Komputer\' akan dipakai penuh untuk kebutuhan ujian.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi6_8">
+        <item>start</item>
+        <item>(Terdapat pemberitahuan di depan pintu.)</item>
+        <item>(Tertulis untuk minggu ini \'Lab Komputer\' akan dipakai penuh untuk kebutuhan ujian.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi6_9">
+        <item>start</item>
+        <item>(Terdapat pemberitahuan di depan pintu.)</item>
+        <item>(Tertulis untuk minggu ini \'Lab Komputer\' akan dipakai penuh untuk kebutuhan ujian.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi6_10">
+        <item>start</item>
+        <item>(Terdapat pemberitahuan di depan pintu.)</item>
+        <item>(Tertulis untuk minggu ini \'Lab Komputer\' akan dipakai penuh untuk kebutuhan ujian.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi6_11">
+        <item>start</item>
+        <item>(Terdapat pemberitahuan di depan pintu.)</item>
+        <item>(Tertulis untuk minggu ini \'Lab Komputer\' akan dipakai penuh untuk kebutuhan ujian.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi6_12">
+        <item>start</item>
+        <item>(Terdapat pemberitahuan di depan pintu.)</item>
+        <item>(Tertulis untuk minggu ini \'Lab Komputer\' akan dipakai penuh untuk kebutuhan ujian.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi6_13">
+        <item>start</item>
+        <item>(Terdapat pemberitahuan di depan pintu.)</item>
+        <item>(Tertulis untuk minggu ini \'Lab Komputer\' akan dipakai penuh untuk kebutuhan ujian.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi6_14">
+        <item>start</item>
+        <item>(Terdapat pemberitahuan di depan pintu.)</item>
+        <item>(Tertulis untuk minggu ini \'Lab Komputer\' akan dipakai penuh untuk kebutuhan ujian.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi6_15">
+        <item>start</item>
+        <item>(Terdapat pemberitahuan di depan pintu.)</item>
+        <item>(Tertulis untuk minggu ini \'Lab Komputer\' akan dipakai penuh untuk kebutuhan ujian.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi6_16">
+        <item>start</item>
+        <item>(Terdapat pemberitahuan di depan pintu.)</item>
+        <item>(Tertulis untuk minggu ini \'Lab Komputer\' akan dipakai penuh untuk kebutuhan ujian.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi6_17">
+        <item>start</item>
+        <item>(Terdapat pemberitahuan di depan pintu.)</item>
+        <item>(Tertulis untuk minggu ini \'Lab Komputer\' akan dipakai penuh untuk kebutuhan ujian.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+</resources>

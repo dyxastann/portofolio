@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alur_1_Lokasi3_8">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Kelas akan segera dimulai.)</item>
+        <item>Bergegaslah ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi3_9">
+        <item>start</item>0
+        <item>(Setelah mengisi daftar tamu, kamu mulai mencari buku.)</item>
+        <item>quisgoto</item>
+        <item>Buku mana yang akan kamu baca?</item>
+        <item>Misteri Wirog.</item>
+        <item>goto14</item>
+        <item>skipif_chara5_smallerthan_1</item>
+        <item>Filosofi jagung rebus.</item>
+        <item>goto22</item>
+        <item>All about SCL.</item>
+        <item>goto41</item>
+        <item>Tinggalkan perpustakaan</item>10
+        <item>goto55</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu memilih buku Misteri Wirog.)</item>
+        <item>(Banyak informasi mengenai Wirog didalam buku ini.)</item>
+        <item>addState_materi_5</item>
+        <item>addState_materi_5</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca Misteri Wirog.\nSetelah mengembalikan buku, kamu bersiap kembali ke \'Ruang 2.14\'.)</item>
+        <item>end</item>20
+        <item>block</item>
+        <item>(Kamu memilih buku Filosofi jagung rebus.)</item>
+        <item>(Kamu merasakan ada yang memperhatikan dirimu.)</item>
+        <item>chara5</item>
+        <item>skipif_chara5_smallerthan_1</item>
+        <item>Kamu, orang yang tadi pagi kan?</item>
+        <item>skipifend</item>
+        <item>&#8230;</item>
+        <item>Eh, jagung rebus</item>
+        <item>Lebih enak kacang telur tau!</item>
+        <item>chara5end</item>
+        <item>( &#8230; )</item>
+        <item>(Kamu mengabaikan perkataannya dan terus membaca.)</item>30
+        <item>(Banyak informasi mengenai jagung rebus yang menarik didalam buku ini.)</item>
+        <item>addState_materi_6</item>
+        <item>addState_materi_6</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca Filosofi jagung rebus.\nSetelah mengembalikan buku, kamu bersiap kembali ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+        <item>block</item>
+        <item>(Kamu memilih buku All about SCL.)</item>
+        <item>skipif_chara4_smallerthan_2</item>
+        <item>chara4</item>
+        <item>Sudah ku duga kamu memilih buku yang sama.</item>41
+        <item>Ayo, kita baca bersama.</item>
+        <item>chara4end</item>
+        <item>(Kamu membaca buku bersama Dea.)</item>
+        <item>skipifend</item>
+        <item>(Banyak informasi mengenai SCL didalam buku ini.)</item>
+        <item>(Sepertinya kamu memilih buku yang tepat.)</item>
+        <item>addState_materi_0</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca All about SCL.\nSetelah mengembalikan buku, kamu bersiap kembali ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+        <item>block</item>54
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi3_10">
+        <item>start</item>
+        <item>(Lebih baik kamu bergegas ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi3_11">
+        <item>start</item>0
+        <item>(Kamu melihat seseorang.)</item>
+        <item>chara8</item>
+        <item>Buku ini menarik.</item>
+        <item>chara8end</item>
+        <item>(Dia sedang membaca sebuah buku.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Menanyakan buku apa yang dia baca.</item>
+        <item>goto18</item>
+        <item>Mencari buku untuk dibaca</item>10
+        <item>goto25</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto15</item>
+        <item>quisgotoend</item>
+        <item>block18</item>15
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+        <item>block</item>18
+        <item>(Kamu menanyakan buku apa yang sedang dia baca.)</item>
+        <item>chara8</item>20
+        <item>Eh? Ini buku tentang pers.</item>
+        <item>freetime</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>25
+        <item>(Kamu memutuskan untuk mencari buku.)</item>
+        <item>(Sepertinya terdapat buku baru disini.)</item>
+        <item>quisgoto</item>
+        <item>(Buku apa yang ingin kamu baca?)</item>
+        <item>Business way to success.</item>30
+        <item>goto35</item>
+        <item>5 Pilar Sistem Informasi.</item>
+        <item>goto45</item>
+        <item>quisgotoend</item>
+        <item>block</item>35
+        <item>(Kamu membaca buku \'Business way to sucess\'.)</item>
+        <item>(Dalam buku ini, dijelaskan mengapa Sistem Informasi diperlukan oleh pebisnis.)</item>
+        <item>addState_materi_3</item>
+        <item>addState_materi_3</item>
+        <item>addtime1</item>40
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Sepertinya \'Perpustakaan\' akan tutup sebentar lagi.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>45
+        <item>(Kamu membaca buku \'5 Pilar Sistem Informasi\'.)</item>
+        <item>(Dalam buku ini, dijelaskan 5 area pengetahuan dalam SIstem Informasi.)</item>
+        <item>addState_materi_4</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Sepertinya \'Perpustakaan\' akan tutup sebentar lagi.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi3_12">
+        <item>start</item>
+        <item>(\'Perpustakaan\' sekarang sendang istrirahat.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi3_13">
+        <item>start</item>0
+        <item>(Kamu memasuki \'Perpustakaan\'.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari buku untuk dibaca</item>
+        <item>goto12</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>10
+        <item>end</item>
+        <item>block</item>12
+        <item>(Kamu memutuskan untuk mencari buku.)</item>
+        <item>quisgoto</item>
+        <item>(Buku apa yang ingin kamu baca?)</item>
+        <item>Business way to success.</item>
+        <item>goto21</item>
+        <item>5 Pilar Sistem Informasi.</item>
+        <item>goto30</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu membaca buku \'Business way to sucess\'.)</item>
+        <item>(Dalam buku ini, dijelaskan mengapa Sistem Informasi diperlukan oleh pebisnis.)</item>
+        <item>addState_materi_3</item>
+        <item>addState_materi_3</item>
+        <item>addtime1</item>40
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>45
+        <item>(Kamu membaca buku \'5 Pilar Sistem Informasi\'.)</item>
+        <item>(Dalam buku ini, dijelaskan 5 area pengetahuan dalam SIstem Informasi.)</item>
+        <item>addState_materi_4</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi3_14">
+        <item>start</item>0
+        <item>(Kamu memasuki \'Perpustakaan\'.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari buku untuk dibaca</item>
+        <item>goto12</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>10
+        <item>end</item>
+        <item>block</item>12
+        <item>(Kamu memutuskan untuk mencari buku.)</item>
+        <item>quisgoto</item>
+        <item>(Buku apa yang ingin kamu baca?)</item>
+        <item>Business way to success.</item>
+        <item>goto21</item>
+        <item>5 Pilar Sistem Informasi.</item>
+        <item>goto31</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu membaca buku \'Business way to sucess\'.)</item>
+        <item>(Dalam buku ini, dijelaskan mengapa Sistem Informasi diperlukan oleh pebisnis.)</item>
+        <item>addState_materi_3</item>
+        <item>addState_materi_3</item>
+        <item>addtime1</item>40
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>45
+        <item>(Kamu membaca buku \'5 Pilar Sistem Informasi\'.)</item>
+        <item>(Dalam buku ini, dijelaskan 5 area pengetahuan dalam SIstem Informasi.)</item>
+        <item>addState_materi_4</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi3_15">
+        <item>start</item>0
+        <item>(Kamu memasuki \'Perpustakaan\'.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari buku untuk dibaca</item>
+        <item>goto12</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>10
+        <item>end</item>
+        <item>block</item>12
+        <item>(Kamu memutuskan untuk mencari buku.)</item>
+        <item>quisgoto</item>
+        <item>(Buku apa yang ingin kamu baca?)</item>
+        <item>Business way to success.</item>
+        <item>goto21</item>
+        <item>5 Pilar Sistem Informasi.</item>
+        <item>goto30</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu membaca buku \'Business way to sucess\'.)</item>
+        <item>(Dalam buku ini, dijelaskan mengapa Sistem Informasi diperlukan oleh pebisnis.)</item>
+        <item>addState_materi_3</item>
+        <item>addState_materi_3</item>
+        <item>addtime1</item>40
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Sepertinya \'Perpustakaan\' akan tutup sebentar lagi.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>45
+        <item>(Kamu membaca buku \'5 Pilar Sistem Informasi\'.)</item>
+        <item>(Dalam buku ini, dijelaskan 5 area pengetahuan dalam SIstem Informasi.)</item>
+        <item>addState_materi_4</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Sepertinya \'Perpustakaan\' akan tutup sebentar lagi.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi3_16">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat pemberitahuan pada pintu.)</item>
+        <item>(Sepertinya \'Perpustakaan\' sudah tutup.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi3_17">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat pemberitahuan pada pintu.)</item>
+        <item>(Sepertinya \'Perpustakaan\' sudah tutup.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi3_7"> Perpustakaan
+        <item>start</item>
+        <item>bg4</item>
+        <item>(\'Perpustakaan\' masih belum dibuka.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi3_8">
+        <item>start</item>0
+        <item>(Kamu memasuki \'Perpustakaan\'.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari buku untuk dibaca</item>
+        <item>goto12</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>10
+        <item>end</item>
+        <item>block</item>12
+        <item>(Kamu memutuskan untuk mencari buku.)</item>
+        <item>quisgoto</item>
+        <item>(Buku apa yang ingin kamu baca?)</item>
+        <item>Business way to success.</item>
+        <item>goto21</item>
+        <item>5 Pilar Sistem Informasi.</item>
+        <item>goto30</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu membaca buku \'Business way to sucess\'.)</item>
+        <item>(Dalam buku ini, dijelaskan mengapa Sistem Informasi diperlukan oleh pebisnis.)</item>
+        <item>addState_materi_3</item>
+        <item>addState_materi_3</item>
+        <item>addtime1</item>40
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>45
+        <item>(Kamu membaca buku \'5 Pilar Sistem Informasi\'.)</item>
+        <item>(Dalam buku ini, dijelaskan 5 area pengetahuan dalam SIstem Informasi.)</item>
+        <item>addState_materi_4</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi3_9">
+        <item>start</item>0
+        <item>(Kamu memasuki \'Perpustakaan\'.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari buku untuk dibaca</item>
+        <item>goto12</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>10
+        <item>end</item>
+        <item>block</item>12
+        <item>(Kamu memutuskan untuk mencari buku.)</item>
+        <item>quisgoto</item>
+        <item>(Buku apa yang ingin kamu baca?)</item>
+        <item>Business way to success.</item>
+        <item>goto21</item>
+        <item>5 Pilar Sistem Informasi.</item>
+        <item>goto30</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu membaca buku \'Business way to sucess\'.)</item>
+        <item>(Dalam buku ini, dijelaskan mengapa Sistem Informasi diperlukan oleh pebisnis.)</item>
+        <item>addState_materi_3</item>
+        <item>addState_materi_3</item>
+        <item>addtime1</item>40
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>45
+        <item>(Kamu membaca buku \'5 Pilar Sistem Informasi\'.)</item>
+        <item>(Dalam buku ini, dijelaskan 5 area pengetahuan dalam SIstem Informasi.)</item>
+        <item>addState_materi_4</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi3_10">
+        <item>start</item>0
+        <item>(Kamu memasuki \'Perpustakaan\'.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari buku untuk dibaca</item>
+        <item>goto12</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>10
+        <item>end</item>
+        <item>block</item>12
+        <item>(Kamu memutuskan untuk mencari buku.)</item>
+        <item>quisgoto</item>
+        <item>(Buku apa yang ingin kamu baca?)</item>
+        <item>Business way to success.</item>
+        <item>goto21</item>
+        <item>5 Pilar Sistem Informasi.</item>
+        <item>goto30</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu membaca buku \'Business way to sucess\'.)</item>
+        <item>(Dalam buku ini, dijelaskan mengapa Sistem Informasi diperlukan oleh pebisnis.)</item>
+        <item>addState_materi_3</item>
+        <item>addState_materi_3</item>
+        <item>addtime1</item>40
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>45
+        <item>(Kamu membaca buku \'5 Pilar Sistem Informasi\'.)</item>
+        <item>(Dalam buku ini, dijelaskan 5 area pengetahuan dalam SIstem Informasi.)</item>
+        <item>addState_materi_4</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi3_11">
+        <item>start</item>0
+        <item>(Kamu memasuki \'Perpustakaan\'.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Mencari buku untuk dibaca</item>
+        <item>goto12</item>
+        <item>Pergi ke tempat lain.</item>
+        <item>goto9</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>10
+        <item>end</item>
+        <item>block</item>12
+        <item>(Kamu memutuskan untuk mencari buku.)</item>
+        <item>quisgoto</item>
+        <item>(Buku apa yang ingin kamu baca?)</item>
+        <item>Business way to success.</item>
+        <item>goto21</item>
+        <item>5 Pilar Sistem Informasi.</item>
+        <item>goto31</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu membaca buku \'Business way to sucess\'.)</item>
+        <item>(Dalam buku ini, dijelaskan mengapa Sistem Informasi diperlukan oleh pebisnis.)</item>
+        <item>addState_materi_3</item>
+        <item>addState_materi_3</item>
+        <item>addtime1</item>40
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Sepertinya \'Perpustakaan\' akan tutup sebentar lagi.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+        <item>block</item>45
+        <item>(Kamu membaca buku \'5 Pilar Sistem Informasi\'.)</item>
+        <item>(Dalam buku ini, dijelaskan 5 area pengetahuan dalam SIstem Informasi.)</item>
+        <item>addState_materi_4</item>
+        <item>addState_materi_4</item>
+        <item>addtime1</item>
+        <item>(Kamu selesai membaca buku tersebut dan mengembalikannya ke tempatnya semula.)</item>
+        <item>(Sepertinya \'Perpustakaan\' akan tutup sebentar lagi.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi3_12">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi3_13">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi3_14">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi3_15">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi3_16">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi3_17">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi3_7">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi3_8">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi3_9">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi3_10">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi3_11">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi3_12">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi3_13">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi3_14">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi3_15">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi3_16">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi3_17">
+        <item>start</item>
+        <item>bg4</item>
+        <item>(Terdapat sebuah pemberitahuan pada pintu.)</item>
+        <item>(Dikatakan bahwa : \'Perpustakaan\' tutup sementara untuk perbaikan.)</item>
+        <item>(Kamu memutuskan untuk pergi ke tempat lain.)</item>
+        <item>end</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tugas_id0">
+        <item>Tugas pertama.</item>judul tugas
+        <item>Ini adalah tugas pertama yang diberikan oleh dosen kepadamu.\nDalam tugas kali ini, kamu harus : </item>detail tugas
+        <item>1_10</item>deadline tugas (minggu_jam)
+        <item>materi_0</item>requirement
+        <item>soal_id_0</item>
+    </string-array>
+
+    <string-array name="tugas_id1">
+        <item>Tugas kedua.</item>judul tugas
+        <item>Ini adalah tujuan pembelajaran pada slide 1.
+            \nDalam tugas ini, kamu harus : </item>detail tugas
+        <item>2_11</item>deadline tugas (minggu_jam)
+        <item>materi_1</item>requirement
+        <item>materi_2</item>
+        <item>materi_3</item>
+        <item>materi_4</item>
+    </string-array>
+
+    <string-array name="function_tugas">
+        <item>materi_1</item>on requirement(s) pemain harus mengetahui detail materi 1
+        <item>soal_id_1</item>on requirement(s) pemain harus menjawab soal dengan id 1 dengan benar
+        <item>chara1_4</item>on requirement(s) pemain harus spendtime dengan chara 1 sebanyak 4 kali
+    </string-array>
+
+</resources>

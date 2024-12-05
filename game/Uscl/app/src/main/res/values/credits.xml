@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="credits_0">
+        <item>Aplikasi pendukung.</item> judul about
+        <item>Android studio 1.5.1 : Untuk pembuatan aplikasi\n</item>detail about
+        <item>\nAdobe Photoshop CS 3 : Untuk melakukan image editing.\n</item>
+        <item>\nAudacity 2.0.5 : Untuk melakukan audio editing.\n</item>
+        <item>\nAplikasi pendukung lainnya menyusul.</item>
+    </string-array>
+    <string-array name="credits_1">
+        <item>Musik dan Sound effect yang dipakai.</item> judul about
+        <item>Main activity : Metropolismania - Title song.\n</item> detail about
+        <item>Save / Load activity : Persona - Subete no hito no tamashi.\n</item>
+        <item>Credits / About activity : Final fantasy - 8 melodies.\n</item>
+        <item>Game activity - Perpustakaan : Mocca - I think i\'m in love.\n</item>
+        <item>Game activity - Ruang kelas : Persona - Afternoon break.\n</item>
+        <item>Game activity - Mading : Hunter X Hunter - Minatomati.\n</item>
+        <item>Game activity - Gerbang : Hunter X Hunter - Minatomati.\n</item>
+        <item>Game activity - Anthony theme : Hunter X Hunter - Nanja kore.\n</item>
+        <item>Game location activity : Hunter X Hunter - Heion na hibi.\n</item>
+        <item>\nLagu lain menyusul.</item>
+    </string-array>
+    <string-array name="credits_2">
+        <item>Gambar dan logo.</item> judul about
+        <item>Game Persona 3 : Beberapa gambar karakter diambil dari game ini, di-trace ulang, dan dilakukan beberapa perubahan.\n</item> detail about
+        <item>\nGoogle image : Beberapa gambar karakter dan background diambil dari penelusuran pada Google image.\n</item>
+        <item>\nGambar smartphone : Salah satu scene dari anime Aldonah zero.\n</item>
+        <item>\nPenjelasan lainnya menyusul.</item>
+    </string-array>
+    <string-array name="credits_3">
+        <item>Mereka yang berjasa dalam pembuatan aplikasi.</item> judul about
+        <item>(Beberapa nama yang telah membantu dalam pengembangan serta UAT aplikasi akan dimasukan disini.)</item> detail about
+    </string-array>
+    <string-array name="credits_4">
+        <item>Mereka yang berjasa dalam penyusunan laporan.</item> judul about
+        <item>Desmiwati, S.Kom, M.Si : Sebagai dosen pembimbing penyusunan laporan skripsi.\n</item>detail about
+        <item>\nDaftar nama lainnya menyusul.</item>
+    </string-array>
+    <string-array name="credits_5">
+        <item>Coming soon.</item> judul about
+        <item>Bila ada tambahan bantuan lainnya, akan dimasukan disini.</item> detail about
+    </string-array>
+</resources>

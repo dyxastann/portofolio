@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alur_tutorial_Lokasi8_7">
+        <item>start</item>
+        <item>bg3</item>
+        <item>chara1</item>
+        <item>Perkenalkan, namaku adalah [chara1].</item>
+        <item>bg3end</item>
+        <item>bg7</item>
+        <item>chara1_addMet</item>
+        <item>Selamat datang, pemain Uscl.\nGame ini adalah sebuah game simulasi metode student-center learning dengan genre visual novel.</item>
+        <item>Dalam game ini, pemain ditantang untuk mencari materi pembelajaran selengkap mungkin.</item>
+        <item>bg7end</item>
+        <item>bg6</item>
+        <item>semakin lengkap materi, semakin tinggi nilai pemain.</item>
+        <item>chara1end</item>
+        <item>chara2</item>
+        <item>Selain mencari materi, pemain juga akan menemukan beberapa pertanyaan dengan pilihan yang disediakan.</item>
+        <item>chara2end</item>
+        <item>chara3</item>
+        <item>Berikut adalah contoh pertanyaannya.\n(tekan next untuk melihat pertanyaan)</item>
+        <item>quis</item>
+        <item>soal_id_0</item>
+        <item>Pilihlah jawaban yang benar!\n</item>
+        <item>pilihan yang benar</item>
+        <item>pilihan yang salah</item>
+        <item>jawaban</item>
+        <item>pilihan yang benar</item>
+        <item>quisend</item>
+        <item>Perlu diingat, setelah menjawab pertanyaan, pemain tidak dapat kembali ke pertanyaan tersebut ataupun dialog-dialog sebelumnya.</item>
+        <item>bg6end</item>
+        <item>bg9</item>
+        <item>Jadi, jawablah pertanyaan dengan sebaik mungkin.</item>
+        <item>chara3end</item>
+        <item>chara4</item>
+        <item>bg9end</item>
+        <item>bg5</item>
+        <item>Sekian penjelasan tentang Uscl</item>
+        <item>Setelah ini, kamu akan masuk kedalam menu untuk memilih lokasi.</item>
+        <item>Pilih lokasi 2 dalam menu tersebut, dan kita akan bertemu lagi.\n(tekan next untuk mulai memilih lokasi)</item>
+        <item>chara4end</item>
+        <item>bg5end</item>
+        <item>addtime1</item>
+        <item>end</item>
+    </string-array>
+
+
+    <string-array name="alur_tutorial_Lokasi1_8">
+        <item>start</item>
+        <item>Kamu menemukan seseorang.</item>
+        <item>chara2</item>
+        <item>Ini bukan Lokasi 2.</item>
+        <item>Akan ku panggilkan Karakter 1 kesini</item>
+        <item>chara2end</item>
+        <item>(Karakter 2 pergi memanggil Karakter 1)</item>
+        <item>chara1</item>
+        <item>Kenapa kamu tidak memilih lokasi 2?</item>
+        <item>Ingat, setiap kamu memilih lokasi, waktu mungkin akan bertambah.</item>
+        <item>Tiap lokasi akan memicu alur tersendiri berdasarkan lokasi dan waktu.</item>
+        <item>Kamu dapat berkeliling area hingga jam 18.00.</item>
+        <item>Setelah itu, kamu akan pulang ke Rumah mu secara otomatis.</item>
+        <item>Setelah pulang, kamu akan kembali ke area kampus pada minggu berikutnya.</item>
+        <item>quisgoto</item>
+        <item>Kamu paham?</item>
+        <item>Ya, tentu saja~!</item>
+        <item>goto21</item>
+        <item>Bisa tolong ulangi?</item>
+        <item>goto27</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>Kalau begitu, aku pergi dulu.</item>
+        <item>Selamat menikmati permainan.</item>
+        <item>chara1end</item>
+        <item>addtime1</item>
+        <item>end</item>
+        <item>block</item>
+        <item>Akan ku ulangi lagi.</item>
+        <item>Perhatikan baik-baik ya.</item>
+        <item>Tiap lokasi akan memicu alur tersendiri berdasarkan lokasi dan waktu.</item>
+        <item>Kamu dapat berkeliling area hingga jam 18.00.</item>
+        <item>Setelah itu, kamu akan pulang ke Rumah mu secara otomatis.</item>
+        <item>Setelah pulang, kamu akan kembali ke area kampus pada minggu berikutnya.</item>
+        <item>quisgoto</item>
+        <item>Kamu paham?</item>
+        <item>Ya, tentu saja~!</item>
+        <item>goto21</item>
+        <item>Bisa tolong ulangi?</item>
+        <item>goto27</item>
+        <item>quisgotoend</item>
+    </string-array>
+
+    <string-array name="alur_tutorial_Lokasi2_1">
+        <item>start</item>
+        <item>chara1</item>
+        <item>Kita bertemu lagi.</item>
+        <item>Ingat, setiap kamu memilih lokasi, waktu mungkin akan bertambah.</item>
+        <item>Tiap lokasi akan memicu alur tersendiri berdasarkan lokasi dan waktu.</item>
+        <item>Kamu dapat berkeliling area hingga jam 18.00.</item>
+        <item>Setelah itu, kamu akan pulang ke Rumah mu secara otomatis.</item>
+        <item>Setelah pulang, kamu akan kembali ke area kampus pada minggu berikutnya.</item>
+        <item>quisgoto</item>
+        <item>Kamu paham?</item>
+        <item>Ya, tentu saja~!</item>
+        <item>goto15</item>
+        <item>Bisa tolong ulangi?</item>
+        <item>goto21</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>Kalau begitu, aku pergi dulu.</item>
+        <item>Selamat menikmati permainan.</item>
+        <item>chara1end</item>
+        <item>addtime1</item>
+        <item>end</item>
+        <item>block</item>
+        <item>Akan ku ulangi lagi.</item>
+        <item>Perhatikan baik-baik ya.</item>
+        <item>Ingat, setiap kamu memilih lokasi, waktu mungkin akan bertambah.</item>
+        <item>Tiap lokasi akan memicu alur tersendiri berdasarkan lokasi dan waktu.</item>
+        <item>Kamu dapat berkeliling area hingga jam 18.00.</item>
+        <item>Setelah itu, kamu akan pulang ke Rumah mu secara otomatis.</item>
+        <item>Setelah pulang, kamu akan kembali ke area kampus pada minggu berikutnya.</item>
+        <item>quisgoto</item>
+        <item>Kamu paham?</item>
+        <item>Ya, tentu saja~!</item>
+        <item>goto15</item>
+        <item>Bisa tolong ulangi?</item>
+        <item>goto21</item>
+        <item>quisgotoend</item>
+    </string-array>
+
+    <string-array name="alur_tutorial_Lokasi1_9">
+        <item>start</item>
+        <item>Kamu menemukan seseorang.</item>
+        <item>chara2</item>
+        <item>Yo!</item>
+        <item>Terkadang, terdapat beberapa pertanyaan yang dapat mempengaruhi alur waktu.</item>
+        <item>Contohnya seperti pertanyaan berikut.</item>
+        <item>quisgoto</item>
+        <item>Apakah kamu mau menunggu disini hingga jam 18.00?</item>
+        <item>Ya.</item>
+        <item>goto16</item>
+        <item>Tidak.</item>
+        <item>goto22</item>
+        <item>Bisa jelaskan lagi?</item>
+        <item>goto25</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>Akan ku percepat waktu sekarang.</item>
+        <item>addtime1</item>
+        <item>Jika kamu lihat di atas, waktu telah bertambah 1 jam.\n(Tekan tombol "Show menu")</item>
+        <item>Sekian penjelasan dariku.</item>
+        <item>end</item>
+        <item>block</item>
+        <item>Kamu tidak mau?</item>
+        <item>Yasudah.</item>
+        <item>end</item>
+        <item>block</item>
+        <item>Uhh, baiklah.</item>
+        <item>Terkadang, terdapat beberapa pertanyaan yang dapat mempengaruhi alur waktu.</item>
+        <item>Contohnya seperti pertanyaan berikut.</item>
+        <item>quisgoto</item>
+        <item>Apakah kamu mau menunggu disini 1 jam?</item>
+        <item>Ya.</item>
+        <item>goto16</item>
+        <item>Tidak.</item>
+        <item>goto22</item>
+        <item>Bisa jelaskan lagi?</item>
+        <item>goto25</item>
+        <item>quisgotoend</item>
+    </string-array>
+
+    <string-array name="alur_tutorial_Lokasi2_9">
+        <item>start</item>0
+        <item>chara1</item>1
+        <item>resetState_materi</item>
+        <item>Sekarang aku akan menjelaskan tentang Materi.</item>2
+        <item>Jika kamu lihat pada menu di atas, dalam option akan terdapat menu memo.\n(tekan "Show menu")</item>3
+        <item>Di dalam memo, terdapat menu "Materi".\nBeberapa pertanyaan dalam game ini, akan berhubungan dengan materi tersebut.</item>4
+        <item>Contohnya seperti pertanyaan berikut.\n(Tekan next untuk melihat pertanyaan)</item>5
+        <item>quismateri</item>6
+        <item>soal_id_1</item>7
+        <item>Apakah yang dimaksud dengan Visual novel?</item>8
+        <item>materi_0_title</item>9
+        <item>materi_0_substring_0_17</item>10
+        <item>materi_7_title</item>11
+        <item>materi_7_substring_20_36</item>12
+        <item>materi_5_substring_13_42</item>13
+        <item>jawaban</item>14
+        <item>materi_7_substring_20_36</item>15
+        <item>quismateriend</item>16
+        <item>Hanya ada 1 pilihan yang tersedia kan?\nItu karena belum ada materi yang kamu pelajari.</item>17
+        <item>Sebenarnya, terdapat 5 pilihan jawaban yang ada.\nNamun untuk membuka semuanya, kamu harus mempelajari materi materi pertama, keenam, dan kedelapan.</item>18
+        <item>Dalam game ini, terdapat 3 state dalam mengenal materi.\nYaitu, "tidak mengetahui", "mengetahui", dan "hafal".</item>19
+        <item>State "tidak mengetahui" menandakan kamu tidak mengetahui judul materi tersebut.\nMateri dengan state ini tidak akan muncul pada "list materi" dalam "Memo".</item>20
+        <item>State "mengetahui" menandakan kamu telah mengetahui suatu materi, namun hanya sebatas judulnya saja.\nMulai dari state ini, materi akan muncul pada "list materi", namun belum ada penjelasan detail materi tersebut.</item>21
+        <item>Sekarang akan ku ubah State materi pertama menjadi "mengetahui".\n(tekan next untuk mengubah state materi pertama)</item>22
+        <item>addState_materi_0</item>23
+        <item>Lihatlah kembali list materi pada "Memo" dan cobalah periksa detail materi tersebut.</item>24
+        <item>Sekarang, akan ku ubah State semua materi lainnya.</item>25
+        <item>addState_materi_1</item>26
+        <item>addState_materi_2</item>27
+        <item>addState_materi_3</item>28
+        <item>addState_materi_4</item>29
+        <item>addState_materi_5</item>30
+        <item>addState_materi_6</item>31
+        <item>addState_materi_7</item>32
+        <item>addState_materi_8</item>33
+        <item>addState_materi_9</item>34
+        <item>Lihatlah kembali list materi pada "Memo" dan cobalah periksa detail materi tersebut.</item>35
+        <item>Cobalah jawab pertanyaan yang ku berikan sebelumnya.\m(tekan next untuk melihat pertanyaan)</item>36
+        <item>quismateri</item>37
+        <item>soal_id_1</item>38
+        <item>Apakah yang dimaksud dengan Visual novel?</item>39
+        <item>materi_0_title</item>40
+        <item>materi_0_substring_0_17</item>41
+        <item>materi_7_title</item>42
+        <item>materi_7_substring_20_36</item>43
+        <item>materi_5_substring_13_42</item>44
+        <item>jawaban</item>45
+        <item>materi_7_substring_20_36</item>46
+        <item>quismateriend</item>47
+        <item>Kamu sudah dapat melihat 2 pilihan jawaban kan?\nKedua pilihan itu muncul karena kamu hanya butuh untuk mengetahui judul materi.</item>
+        <item>Selanjutnya, cobalah jawab pertanyaan tersebut setelah ku ubah State seluruh materi menjadi "hafal".\n(tekan next untuk mengubah State seluruh materi)</item>
+        <item>addState_materi_0</item>
+        <item>addState_materi_1</item>
+        <item>addState_materi_2</item>
+        <item>addState_materi_3</item>
+        <item>addState_materi_4</item>
+        <item>addState_materi_5</item>
+        <item>addState_materi_6</item>
+        <item>addState_materi_7</item>
+        <item>addState_materi_8</item>
+        <item>addState_materi_9</item>
+        <item>Pastikan kamu baca detail materi pada "Memo" terlebih dahulu.\nJika kamu sudah siap, tekanlah tombol next untuk mencoba menjawab pertanyaan.</item>
+        <item>quismateri</item>37
+        <item>soal_id_1</item>38
+        <item>Apakah yang dimaksud dengan Visual novel?</item>39
+        <item>materi_0_title</item>40
+        <item>materi_0_substring_0_17</item>41
+        <item>materi_7_title</item>42
+        <item>materi_7_substring_20_36</item>43
+        <item>materi_5_substring_13_42</item>44
+        <item>jawaban</item>45
+        <item>materi_7_substring_20_36</item>46
+        <item>quismateriend</item>47
+        <item>Seluruh pilihan yang tersedia pada pertanyaan itu telah terbuka.</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_tutorial_Lokasi1_10">
+        <item>start</item>
+        <item>\n(Kamu mendengar seseorang memanggil dirimu)</item>
+        <item>chara1</item>
+        <item>Kebetulan kamu ada disini.</item>
+        <item>Karakter 2 sedang mencarimu, dia ada di Lokasi 2 sekarang,</item>
+        <item>Sudah ya, aku pergi lagi</item>
+        <item>chara1end</item>
+        <item>\n(Karakter 1 pergi)</item>
+        <item>\n(Mungkin ada baiknya kamu menemui Karakter 2 di Lokasi 2)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_tutorial_Lokasi2_10">
+        <item>start</item>
+        <item>chara2</item>
+        <item>quisgoto</item>
+        <item>Lagi sibuk?</item>
+        <item>Butuh bantuan?</item>
+        <item>goto11</item>
+        <item>Aku masih ingin pergi ke tempat lain, maaf ya.</item>
+        <item>goto19</item>
+        <item>&#8230;</item>
+        <item>goto23</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>Iya, bantuin bersih-bersih kampus yuk.</item>
+        <item>chara2end</item>
+        <item>\n(Kamu terpaksa membantunya bersih-bersih)</item>
+        <item>addtime8</item>
+        <item>\n(Tanpa terasa, hari sudah menjelang malam)</item>
+        <item>\n(Kamu memutuskan untuk pulang)</item>
+        <item>end</item>
+        <item>block</item>
+        <item>Oh, yaudah.</item>
+        <item>Tapi kalo nanti berubah pikiran, kesini lagi ya.</item>
+        <item>end</item>
+        <item>block</item>
+        <item>*ehem*</item>
+        <item>quisgoto</item>
+        <item>Lagi sibuk?</item>
+        <item>Butuh bantuan?</item>
+        <item>goto11</item>
+        <item>Aku masih ingin pergi ke tempat lain, maaf ya.</item>
+        <item>goto19</item>
+        <item>&#8230;</item>
+        <item>goto23</item>
+        <item>quisgotoend</item>
+    </string-array>
+
+    <string-array name="alur_tutorial_Lokasi1_7">
+        <item>start</item>
+        <item>Kamu menemukan seseorang.</item>
+        <item>chara1</item>
+        <item>Minggu akan berganti setelah kamu pulang ke Rumahmu</item>
+        <item>Dan itu menandakan Game Uscl berakhir disini.</item>
+        <item>Terima kasih telah memainkan Uscl.</item>
+        <item>chara1end</item>
+        <item>gameend</item>
+    </string-array>
+
+    <string-array name="alur_tutorial_Lokasi2_7">
+        <item>start</item>
+        <item>quismateri</item>
+        <item>soal_id_2</item>
+        <item>Pertanyaan.</item>
+        <item>materi_0_title</item>
+        <item>materi_1_substring_30_60</item>
+        <item>jawaban</item>
+        <item>materi_1_substring_30_60</item>
+        <item>quismateriend</item>
+    </string-array>
+</resources>

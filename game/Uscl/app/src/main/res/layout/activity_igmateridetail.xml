@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#a0f0ff"
+    android:padding="10dp"
+    tools:context=".igGameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/bback"
+            android:textSize="12sp"
+            android:layout_margin="0dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            />
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/judul_materi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Judul Materi"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tema_materi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tema Materi"
+                    android:layout_gravity="center"
+                    android:textStyle="italic"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="top|right"
+            android:text="Next"
+            android:textSize="12sp"
+            android:layout_margin="0dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            >
+
+            <TextView
+                android:id="@+id/detail_materi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detail materi disini."
+                />
+        </ScrollView>
+    <Button
+        android:id="@+id/but_return"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Return"/>
+
+</LinearLayout>

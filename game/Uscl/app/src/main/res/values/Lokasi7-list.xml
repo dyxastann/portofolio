@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alur_1_Lokasi7_8">
+        <item>start</item>
+        <item>(Kelas akan segera dimulai.)</item>
+        <item>(Bergegaslah ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi7_9">
+        <item>start</item>
+        <item>(Kelas senior sedang berlangsung.)</item>
+        <item>(Lebih baik kamu tidak mengganggu mereka.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi7_10">
+        <item>start</item>
+        <item>(Lebih baik kamu bergegas ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi7_11">
+        <item>start</item>
+        <item>(Kelas senior masih berlangsung.)</item>
+        <item>( … )</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi7_12">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi7_13">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi7_14">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi7_15">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi7_16">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_1_Lokasi7_17">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi7_7">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi7_8">
+        <item>start</item>
+        <item>(Kelas senior sedang berlangsung.)</item>
+        <item>(Lebih baik kamu tidak mengganggu mereka.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi7_9">
+        <item>start</item>
+        <item>(Kelas senior sedang berlangsung.)</item>
+        <item>(Lebih baik kamu tidak mengganggu mereka.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi7_10">
+        <item>start</item>
+        <item>(Kelas senior sedang berlangsung.)</item>
+        <item>(Lebih baik kamu tidak mengganggu mereka.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi7_11">
+        <item>start</item>
+        <item>(Kelas senior sedang berlangsung.)</item>
+        <item>(Lebih baik kamu tidak mengganggu mereka.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi7_12">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi7_13">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi7_14">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi7_15">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi7_16">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_2_Lokasi7_17">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi7_7">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi7_8">
+        <item>start</item>
+        <item>(Ujian sedang berlangsung.)</item>
+        <item>(Lebih baik kamu tidak mengganggu mereka.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi7_9">
+        <item>start</item>
+        <item>(Ujian sedang berlangsung.)</item>
+        <item>(Lebih baik kamu tidak mengganggu mereka.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi7_10">
+        <item>start</item>
+        <item>(Ujian sedang berlangsung.)</item>
+        <item>(Lebih baik kamu tidak mengganggu mereka.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi7_11">
+        <item>start</item>
+        <item>(Ujian sedang berlangsung.)</item>
+        <item>(Lebih baik kamu tidak mengganggu mereka.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi7_12">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi7_13">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi7_14">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi7_15">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi7_16">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_3_Lokasi7_17">
+        <item>start</item>
+        <item>(Tidak ada orang disini.)</item>
+        <item>(Kamu memutuskan untuk pergi.)</item>
+        <item>end</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_0">
+        <item>Cara menjawab pertanyaan</item> judul about
+        <item>Pertama-tama, tentukanlah jawaban yang akan kamu pilih.\n</item> detail about
+        <item>\nSetelah menentukan pilihan, sentuh radio button jawaban tersebut pada layar perangkat.\n</item>
+        <item>\nTombol Next akan secara otomatis muncul setelah salah satu pilihan terpilih.\n</item>
+        <item>\nSentuh tombol Next pada layar perangkat untuk memastikan pilihanmu, dan alur cerita akan berlanjut kembali.\n</item>
+        <item>\n(Setelah memilih jawaban, kamu tidak dapat kembali ke pertanyaan menggunakan tombol Back.)</item>
+    </string-array>
+    <string-array name="about_1">
+        <item>Memilih slot pada Save / Load</item> judul about
+        <item>Sentuh salah satu slot penyimpanan pada layar perangkat.\n</item> detail about
+        <item>\nSetelah slot terpilih, terlihat perbedaan pada slot tersebut sebagai indikator slot aktif.\n</item>
+        <item>\nSentuh tombol Save / Load game untuk menyelesaikan proses.</item>
+    </string-array>
+    <string-array name="about_2">
+        <item>Memilih lokasi.</item> judul about
+        <item>Dalam tampilan Game location activity, cukup sentuh salah satu lokasi yang kamu inginkan pada layar perangkat.\n</item> detail about
+        <item>\nAplikasi akan secara otomatis membaca lokasi terpilih dan menyesuaikan alur cerita berdasarkan Minggu, Lokasi, dan Jam.\n</item>
+        <item>\nSetelah aplikasi menentukan alur, secara otomatis aplikasi akan menampilkan kembali Game activity dengan alur tersebut.</item>
+    </string-array>
+    <string-array name="about_3">
+        <item>Cara kembali ke Main activity.</item> judul about
+        <item>Dalam Game activity dan Game location activity, kamu tidak dapat menggunakan tombol back pada perangkat untuk kembali ke activity sebelumnya.\n</item> detail about
+        <item>\nAplikasi akan membuka Backtomainmenu activity bila kamu menekan tombol back pada perangkat.\n</item>
+        <item>\nPilih \'Ya\' pada Backtomainmenu activity, dan aplikasi akan membuka Main activity dan menutup activity-activity sebelumnya.\n</item>
+        <item>\nDalam activity lain (contoh : Load, Option, Gallery, dan turunannya.), kamu dapat menyentuh tombol back pada layar perangkat ataupun tombol back pada perangkat untuk kembali ke activity-activity sebelumnya.</item>
+    </string-array>
+    <string-array name="about_4">
+        <item>Coming soon.</item> judul about
+        <item>Penjelasan lainnya akan ditambah dikemudian hari.</item> detail about
+    </string-array>
+</resources>

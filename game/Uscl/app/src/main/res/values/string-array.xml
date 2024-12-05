@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alur_smartphone">
+        <item>start</item>0
+        <item>(Kamu membuka smartphonemu.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan?)</item>
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>
+        <item>goto125</item>
+        <item>Tutup smartphone.</item>
+        <item>goto22</item>
+        <item>quisgotoend</item>10
+        <item>block</item>
+        <item>(Fitur ini masih belum diimplementasikan.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>
+        <item>goto125</item>
+        <item>Tutup smartphone.</item>
+        <item>goto22</item>20
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu menutup smartphonemu.)</item>
+        <item>end</item>
+        <item>block</item>
+        <item>(Kamu membuka daftar materi.)</item>
+        <item>quisgoto</item>
+        <item>(Pilih slide yang ingin kamu baca.)</item>
+        <item>skipif_slide1_equals_0</item>
+        <item>Slide 1</item>30
+        <item>goto46</item>31
+        <item>Tidak jadi membaca.</item>
+        <item>goto35</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu tidak jadi membaca slide.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Buka slide.</item>
+        <item>goto26</item>40
+        <item>Cari informasi.</item>
+        <item>goto125</item>42
+        <item>Tutup smartphone.</item>
+        <item>goto22</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>skipif_tugas1_equals_0</item>
+        <item>(Kamu membuka kembali slide 1.)</item>
+        <item>bg0end</item>
+        <item>bg100</item>50
+        <item>(Halaman pembuka slide.)</item>
+        <item>bg100end</item>
+        <item>bg101</item>
+        <item>(Di halaman ini terdapat daftar tujuan pembelajaran.)</item>
+        <item>(Tugas ini telah kamu tulis dalam \'Memo\'.)</item>
+        <item>bg101end</item>
+        <item>bg102</item>
+        <item>(Halaman berikutnya membahas tentang sistem.)</item>
+        <item>bg102end</item>
+        <item>bg103</item>60
+        <item>(Slide ini menampilkan fungsi dasar suatu sistem.)</item>
+        <item>bg103end</item>
+        <item>bg104</item>
+        <item>(Slide ini menampilkan sumber daya pada sistem informasi.)</item>
+        <item>bg104end</item>
+        <item>bg109</item>
+        <item>(Ini adalah halaman terakhir pada slide.)</item>
+        <item>bg109end</item>
+        <item>bg0</item>
+        <item>(Kamu selesai membaca slide.)</item>70
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>
+        <item>goto125</item>76
+        <item>Tutup smartphone.</item>
+        <item>goto22</item>
+        <item>quisgotoend</item>
+        <item>skipifend</item>80
+        <item>(Kamu membuka slide 1.)</item>
+        <item>bg0end</item>
+        <item>bg100</item>
+        <item>(Halaman pembuka slide.)</item>
+        <item>bg100end</item>
+        <item>bg101</item>
+        <item>(Di halaman ini terdapat daftar tujuan pembelajaran.)</item>
+        <item>(Sepertinya untuk pertemuan berikutnya, kamu harus dapat memenuhi seluruh  tujuan yang ada di daftar ini.)</item>
+        <item>(Sebaiknya kamu mencatat tugas ini di \'Memo\'.)</item>
+        <item>enable_tugas1</item>90
+        <item>bg101end</item>
+        <item>bg102</item>
+        <item>(Halaman berikutnya membahas tentang sistem.)</item>
+        <item>(Penjelasan pada halaman ini mudah dipahami.)</item>
+        <item>addState_materi_1</item>
+        <item>addState_materi_1</item>
+        <item>bg102end</item>
+        <item>bg103</item>
+        <item>(Slide ini menampilkan fungsi dasar suatu sistem.)</item>
+        <item>bg103end</item>100
+        <item>bg104</item>
+        <item>(Slide ini menampilkan sumber daya pada sistem informasi.)</item>
+        <item>(Sepertinya \'data\' dan \'informasi\' sering dibahas pada slide ini.)</item>
+        <item>(Namun belum ada bagian yang menjelaskan perbedaan diantara keduanya.)</item>
+        <item>addState_materi_2</item>
+        <item>bg104end</item>
+        <item>bg109</item>
+        <item>(Ini adalah halaman terakhir pada slide.)</item>
+        <item>(Sepertinya masih banyak penjelasan yang perlu kamu cari sendiri.)</item>
+        <item>addState_materi_3</item>110
+        <item>addState_materi_4</item>
+        <item>(Periksalah \'tugas\' pada \'Memo\' untuk mengetahui apa yang perlu kamu cari.)</item>
+        <item>bg109end</item>
+        <item>bg0</item>
+        <item>(Kamu selesai membaca slide.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>120
+        <item>goto125</item>121
+        <item>Tutup smartphone.</item>
+        <item>goto22</item>
+        <item>quisgotoend</item>
+        <item>block</item>125
+        <item>(Kamu memutuskan untuk mencari materi.)</item>
+        <item>skipif_chara6_biggerthan_1</item>
+        <item>(Sepertinya ini bukan waktu yang tepat.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>130
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>
+        <item>goto125</item>134
+        <item>Tutup smartphone.</item>135
+        <item>goto22</item>
+        <item>quisgotoend</item>
+        <item>skipifend</item>138
+        <item>(Kamu membuka browser pada smartphone-mu.)</item>
+        <item>skipif_chara0_smallerthan_2</item>140
+        <item>(Ternyata kuota internet-mu sudah habis.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>
+        <item>goto125</item>146
+        <item>Tutup smartphone.</item>147
+        <item>goto22</item>
+        <item>quisgotoend</item>
+        <item>skipifend</item>
+        <item>(Kamu membuka mesin pencarian pada browser-mu.)</item>
+        <item>quisgoto</item>
+        <item>(Materi apa yang ingin kamu cari?)</item>
+        <item>skipif_materi0_smallerthan_1</item>
+        <item>Apa itu student-center learning?</item>
+        <item>goto183</item>
+        <item>skipif_materi1_smallerthan_1</item>150
+        <item>Apa itu sistem?</item>
+        <item>goto198</item>
+        <item>skipif_materi2_smallerthan_1</item>
+        <item>Apa perbedaan data dan informasi?</item>
+        <item>goto213</item>
+        <item>skipif_materi3_smallerthan_1</item>
+        <item>Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?</item>
+        <item>goto240</item>
+        <item>skipif_materi4_smallerthan_1</item>
+        <item>Apa saja 5 area pengetahuan dalam sistem informasi?</item>160
+        <item>goto263</item>
+        <item>(Tidak jadi mencari materi.)</item>
+        <item>goto173</item>
+        <item>quisgotoend</item>
+        <item>block</item>173
+        <item>(Kamu menutup browser pada smartphone-mu.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>170
+        <item>goto125</item>171
+        <item>Tutup smartphone.</item>
+        <item>goto22</item>
+        <item>quisgotoend</item>
+        <item>block</item>175
+        <item>(Kamu memasukan keyword \'Apa itu student-center learning?\')</item>
+        <item>(Penjelasan yang ada hampir sama dengan apa yang dijelaskan oleh dosenmu.)</item>
+        <item>chara0_addMet</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser pada smartphone-mu.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>180
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>
+        <item>goto125</item>184
+        <item>Tutup smartphone.</item>
+        <item>goto22</item>
+        <item>quisgotoend</item>
+        <item>block</item>189
+        <item>(Kamu memasukan keyword \'Apa itu sistem?\')</item>190
+        <item>(Penjelasan yang ada hampir sama dengan penjelasan yang ada pada slide yang diberikan oleh dosenmu.)</item>191
+        <item>chara0_addMet</item>
+        <item>addtime1</item>
+        <item>(Kamu menutup browser pada smartphone-mu.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>
+        <item>goto125</item>199
+        <item>Tutup smartphone.</item>200
+        <item>goto22</item>
+        <item>quisgotoend</item>202
+        <item>block</item>203
+        <item>(Kamu memasukan keyword \'Apa perbedaan data dan informasi?\')</item>
+        <item>(Kamu menemukan penjelasan mengenai \'data\'.)</item>
+        <item>chara0_addMet</item>
+        <item>(Sepertinya jika hanya melihat penjelasan tentang \'data\', kamu kurang dapat memahami perbedaannya.)</item>
+        <item>(Kamu memutuskan mencari penjelasan tentang \'informasi\'.)</item>
+        <item>chara0_addMet</item>
+        <item>addtime1</item>210
+        <item>(Kamu menemukan penjelasan mengenai \'informasi\'.)</item>
+        <item>(Kamu mencoba membandingkan perbedaan diantara keduanya.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>( ……… )</item>
+        <item>(Kamu mulai dapat melihat perbedaan diantara keduanya.)</item>
+        <item>addState_materi_2</item>
+        <item>addtime1</item>
+        <item>(Sepertinya kamu menghabiskan banyak kuota untuk pencarian ini.)</item>
+        <item>(Kamu menutup browser pada smartphone-mu.)</item>220
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>
+        <item>goto125</item>
+        <item>Tutup smartphone.</item>
+        <item>goto22</item>
+        <item>quisgotoend</item>
+        <item>block</item>229
+        <item>(Kamu memasukan keyword \'Mengapa pengetahuan sistem informasi penting bagi pelaku bisnis?\')</item>230
+        <item>( … )</item>
+        <item>(Kamu diarahkan kesebuah website organisasi MLM.)</item>
+        <item>(Sepertinya kamu tidak dapat menemukan apa yang kamu cari disini.)</item>
+        <item>(Kamu mencoba mencari di website lain.)</item>
+        <item>( … )</item>
+        <item>( …… )</item>
+        <item>(Kali ini kamu menemukan website frenchise tahu bulat.)</item>
+        <item>chara0_addMet</item>
+        <item>addtime1</item>
+        <item>(Sepertinya kamu kesulitan untuk mencari materi ini sendiri.)</item>240
+        <item>(Sebaiknya kamu coba tanyakan ke orang yang lebih berpengalaman tentang bisnis untuk hal ini.)</item>
+        <item>(Kamu menutup browser pada smartphone-mu.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>
+        <item>goto125</item>
+        <item>Tutup smartphone.</item>
+        <item>goto22</item>
+        <item>quisgotoend</item>250
+        <item>block</item>251
+        <item>(Kamu memasukan keyword \'Apa saja 5 area pengetahuan dalam sistem informasi?\')</item>
+        <item>( … )</item>
+        <item>(Kamu menemukan sebuah jurnal penelitian yang membahas hal tersebut.)</item>
+        <item>(Terlihat ini adalah sebuah jurnal dari sebuah perguruan tinggi ternama.)</item>
+        <item>(Kamu mencoba memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>addState_materi_4</item>
+        <item>chara0_addMet</item>
+        <item>addtime1</item>
+        <item>(Kamu berhasil memahami pembahasan pada laporan penelitian tersebut.)</item>
+        <item>(Kamu menutup browser pada smartphone-mu.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang ingin kamu lakukan selanjutnya?)</item>
+        <item>Buka slide.</item>
+        <item>goto26</item>
+        <item>Cari informasi.</item>
+        <item>goto125</item>
+        <item>Tutup smartphone.</item>
+        <item>goto22</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+    </string-array>
+
+    <string-array name="function_alur">
+        <item>start</item>
+        <item>quis</item>
+        <item>quismateri</item>
+        <item>quisgoto</item>
+        <item>block</item>
+        <item>chara_addMet</item>
+        <item>addState_materi_1</item>
+        <item>addState_tugas_0</item>
+        <item>resetStateMateri</item>
+        <item>skipif_chara4_smallerthan_1</item>
+        <item>skipif_materi4_smallerthan_1</item>
+        <item>skipif_tugas4_smallerthan_1</item>
+        <item>enable_slide0</item>
+        <item>enable_tugas0</item>
+    </string-array>
+
+</resources>

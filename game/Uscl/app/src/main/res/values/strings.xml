@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Uscl</string>
+    <string name="action_settings">Settings</string>
+    <string name="alur_1">Alur 1.\nalur awal cerita.\ntesting testing test</string>
+    <string name="bback">Back</string>
+    <string name="bexit">Exit</string>
+    <string name="bstart">Start New Game</string>
+    <string name="bGallery">Gallery</string>
+    <string name="bload">Load Game</string>
+    <string name="bqload">Quick Load Game</string>
+    <string name="boption">Options</string>
+    <string name="bcredit">Credits</string>
+    <string name="babout">About</string>
+    <string name="smark">kaZoku@2016</string>
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alur_1_Lokasi1_7">
+        <item>start</item>0
+        <item>bg8</item>
+        <item>(Hari ini adalah hari pertama masuk kuliah.)</item>
+        <item>(Pelajaran akan dimulai pukul 08.00 hingga 11.00 di \'Ruang 2.14\'.)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang akan kamu lakukan?)</item>
+        <item>Berkeliling kampus</item>
+        <item>goto12</item>
+        <item>Menunggu di suatu tempat</item>
+        <item>goto87</item>
+        <item>quisgotoend</item>10
+        <item>block</item>
+        <item>(Kamu memutuskan untuk berkeliling kampus.)</item>
+        <item>bg8end</item>
+        <item>bg4</item>
+        <item>(Ini adalah \'Perpustakaan\'.\n\'Perpustakaan\' buka pukul 08.00~12.00 dan 13.00~16.00.)</item>
+        <item>(Seluruh mahasiswa boleh membaca buku di \'Perpustakaan\' kapanpun, selama \'Perpustakaan\' buka.)</item>
+        <item>(Ingat, \'Buku adalah jendela ilmu\'.\nJadi, coba kunjungilah \'Perpustakaan\' bila kamu kesulitan dalam mencari informasi.)</item>
+        <item>(Namun, seperti yang kamu lihat, sekarang \'Perpustakaan\' belum dibuka.)</item>10
+        <item>(Kamu memutuskan untuk berkeliling ketempat lain.)</item>
+        <item>bg4end</item>20
+        <item>bg5</item>
+        <item>(Ini adalah \'Ruang 2.14\', sesuai jadwal yang kamu terima, kamu akan menggunakan ruangan ini mulai pukul 08.00 hingga 11.00.)</item>
+        <item>(Cobalah untuk selalu datang tepat waktu, sehingga tidak ada materi yang kamu lewati.)</item>
+        <item>(Kamu memutuskan untuk berkeliling keruangan lain.)</item>
+        <item>bg5end</item>
+        <item>bg7</item>
+        <item>(Ini adalah \'Ruang 3.05\', ruang ini digunakan oleh semester 6 pada pukul 08.00 hingga 12.00.)</item>
+        <item>(Mungkin kamu dapat menemui beberapa senior yang dapat membantumu.)</item>20
+        <item>bg7end</item>
+        <item>bg6</item>30
+        <item>(Ini adalah \'Lab. Komputer\'.)</item>
+        <item>(Menurut jadwal, dalam semester ini masih belum ada mata kuliah yang menggunakan \'Lab. Komputer\'.) </item>
+        <item>(Pada saat tidak ada mata kuliah yang memakai \'Lab. Komputer\' secara penuh, mahasiswa diperbolehkan untuk menggunakannya.)</item>
+        <item>(Cobalah untuk berkunjung sesekali disaat waktu luang.)</item>
+        <item>(Berkeliling kampus cukup menguras tenagamu.)</item>
+        <item>(Kamu memutuskan untuk beristirahat di depan \'Mading\'.)</item>
+        <item>bg6end</item>
+        <item>bg9</item>
+        <item>( &#8230; )</item>
+        <item>chara4</item>40
+        <item>&#8230;</item>
+        <item>chara4end</item>
+        <item>(Ada seseorang yang duduk di depan mading.\nSepertinya dia mahasiswa baru sepertimu)</item>
+        <item>quisgoto</item>
+        <item>(Apa yang akan kamu lakukan?)</item>
+        <item>Sapa dia.</item>
+        <item>goto69</item>
+        <item>Duduk agak menjauh, dan tetap diam.</item>
+        <item>goto53</item>
+        <item>Amati tindakannya.</item>50
+        <item>goto58</item>
+        <item>quisgotoend</item>
+        <item>block</item>
+        <item>(Kamu menjauh darinya dan mencoba mengistirahatkan badanmu.)</item>
+        <item>addtime1</item>
+        <item>(Kelas akan segera dimulai, sebaiknya kamu bergegas.)</item>
+        <item>end</item>
+        <item>block</item>50
+        <item>(Kamu mencoba mengamati apa yang dia lakukan.)</item>
+        <item>chara4</item>
+        <item>Semoga hari ini tidak hujan.</item>
+        <item>(Mulai bergumam.)</item>
+        <item>chara4end</item>
+        <item>(Sepertinya dia sedang memperhatikan cuaca.)</item>
+        <item>(Kamu mencoba mengistirahatkan badanmu.)</item>
+        <item>addtime1</item>
+        <item>(Kelas akan segera dimulai, sebaiknya kamu bergegas.)</item>
+        <item>end</item>60
+        <item>block</item>
+        <item>[Pemain]\nPagi.</item>
+        <item>chara4</item>
+        <item>Pagi.</item>
+        <item>Kamu&#8230; semester baru juga ya?</item>
+        <item>chara4end</item>
+        <item>[Pemain]\n(Kamu memperkenalkan dirimu.)</item>
+        <item>chara4</item>
+        <item>Salam kenal juga, namaku Dea Arumsari, tapi panggil aja Dea.</item>
+        <item>chara4_addMet</item>70
+        <item>chara4end</item>
+        <item>(Kamu berbincang singkat dengannya.)</item>
+        <item>addtime1</item>
+        <item>chara4</item>
+        <item>Sepertinya kelasku akan dimulai, aku pergi duluan ya.</item>
+        <item>chara4end</item>
+        <item>(Dea pergi meninggalkan \'Mading\'.)</item>
+        <item>(Kelas akan segera dimulai, sebaiknya kamu juga bergegas.)</item>
+        <item>end</item>79
+        <item>block</item>78
+        <item>(Kamu memutuskan untuk menunggu pelajaran dimulai.)</item>
+        <item>bg8end</item>
+        <item>bg9</item>
+        <item>(Sepertinya mading cukup nyaman.)</item>
+        <item>( … )</item>
+        <item>( Zzz )</item>
+        <item>( Zzzzz )</item>
+        <item>addtime1</item>
+        <item>( Zzzzzzz )</item>
+        <item>(Tanpa sadar kamu terlelap.)</item>
+        <item>(Waktu telah menunjukan pukul 08.00.)</item>
+        <item>(Sebaiknya kamu bergegas ke \'Ruang 2.14\'.)</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="alur_4_Lokasi1_7">
+        <item>start</item>
+        <item>bg2</item>
+        <item>(Hari ini adalah hari diumumkannya nilai hasil perkuliahanmu.)</item>
+        <item>(Kamu berharap dapat mendapatkan nilai terbaik pada mata kuliah ini.)</item>
+        <item>bg2end</item>
+        <item>bg5</item>
+        <item>(Untuk hari ini, kamu memutuskan untuk menunggu didalam ruang kelas.)</item>
+        <item>(Kamu memutuskan untuk menunggu di dalam kelas.)</item>
+        <item>bg5end</item>
+        <item>bg10</item>
+        <item>(Kamu menunggu ditempatmu.)</item>
+        <item>addtime1</item>
+        <item>(Terlihat teman-teman sekelasmu mulai berdatangan.)</item>
+        <item>(Bertepatan setelah seluruh temanmu memasuki kelas, dosen memasuki ruangan.)</item>
+        <item>chara6</item>
+        <item>Untuk yang namanya saya panggil, silahkan maju mengambil hasil penilaian.</item>
+        <item>chara6end</item>
+        <item>(Satu persatu teman sekelasmu dipanggil.)</item>
+        <item>(Secara bergantian mereka mengambil hasil penilaian oleh dosen.)</item>
+        <item>(Terdengar dosen memanggil namamu.)</item>
+        <item>(Kamu mengambil hasil penilaianmu.)</item>
+        <item>(Kamu kembali ke tempatmu dan melihat hasil penilaian yang kamu terima.)</item>
+        <item>evaluasi</item>
+        <item>chara6</item>
+        <item>Saya harap semuanya mendapatkan hasil sesuai dengan harapan masing-masing.</item>
+        <item>Perkuliahan kita berakhir disini.</item>
+        <item>Semoga ilmu yang saya berikan, dapat bermanfaat bagi kalian semua.</item>
+        <item>chara6end</item>
+        <item>(Dosen mulai meninggalkan kelas.)</item>
+        <item>(Teman-temanmu yang lain bersiap meninggalkan kelas.)</item>
+        <item>(Kamu memutuskan untuk pulang dan memberitahu hasil yang kamu dapat.)</item>
+        <item>bg10end</item>
+        <item>bg2</item>
+        <item>Bagaimana hasil penilaianmu selama memainkan game ini?\n\nApakah memuaskan?</item>
+        <item>Harap diingat, ini hanyalah sebuah simulasi.\n\nApa yang kalian alami pada proses pembelajaran dengan metode SCL sesungguhnya mungkin berbeda dengan cerita di game ini.</item>
+        <item>Terima kasih telah memainkan \'Uscl\'.</item>
+        <item>gameend</item>
+    </string-array>
+
+</resources>
