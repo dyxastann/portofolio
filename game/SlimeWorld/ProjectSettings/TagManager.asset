@@ -8,6 +8,7 @@ TagManager:
   - Grass
   - Swamp
   - Enemy
+  - Dirt
   layers:
   - Default
   - TransparentFX
