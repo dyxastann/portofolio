@@ -17,39 +17,45 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
     [SerializeField] Transform cam;
+    InputAction moveAction;
+
+    public Animator animator;
+
     
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         count = 0;
         winTextObject.SetActive(false);
-    }
-
-    void OnMove (InputValue movementValue)
-    {
-        Vector2 movementVector = movementValue.Get<Vector2>(); 
-        movementX = movementVector.x; 
-        movementY = movementVector.y; 
+        moveAction = InputSystem.actions.FindAction("Move");
     }
 
     private void Update() 
     {
+        Vector2 movementVector = moveAction.ReadValue<Vector2>(); 
+        movementX = movementVector.x; 
+        movementY = movementVector.y; 
+
         Vector3 camForward = cam.forward;
+        Vector3 camUp = cam.up;
         Vector3 camRight = cam.right;
 
         camForward.y = 0;
         camRight.y = 0;
 
-        Vector3 forwardRelative = movementY * camForward;
+        Vector3 forwardRelative = movementY * new Vector3(camForward.x + camUp.x, 0f, camForward.z + camUp.z);
         Vector3 rightRelative = movementX * camRight;
 
-        // Vector3 movement = new Vector3 (movementX, 0.0f, movementY);
         Vector3 movement = forwardRelative + rightRelative;
-        // rb.AddForce(movement * speed);
 
         rb.velocity = new Vector3(movement.x * speed, rb.velocity.y, movement.z * speed);
-        if(Input.GetButtonDown("Jump") && Physics.Raycast(transform.position, Vector3.down, 0.65f)) rb.velocity = new Vector3(rb.velocity.x, jump, rb.velocity.z);
+        if(Input.GetButtonDown("Jump") && Physics.Raycast(transform.position, Vector3.down, 0.65f)) {
+            animator.SetTrigger("Jump");
+            rb.velocity = new Vector3(rb.velocity.x, jump, rb.velocity.z);
+        }
         if(!Mathf.Approximately(rb.velocity.x, 0) && !Mathf.Approximately(rb.velocity.z, 0)) transform.forward = new Vector3(rb.velocity.x, 0, rb.velocity.z);
+        
+        // animator.SetFloat("Speed", rb.velocity.magnitude);
     }
 
     void OnTriggerEnter(Collider other) 

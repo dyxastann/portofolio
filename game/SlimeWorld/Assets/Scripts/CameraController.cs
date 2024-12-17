@@ -9,10 +9,8 @@ public class CameraController : MonoBehaviour
 {
     public GameObject player;
     private Vector3 offset;
-    public float lookX;
-    public float lookY;
     public float x = 0.0f;
-    public float y = 0.0f;
+    public float y = 10.0f;
     public float distance = 10.0f;
 
     public float xSpeed = 250.0f;
@@ -21,32 +19,25 @@ public class CameraController : MonoBehaviour
     public float yMinLimit = -20f;
     public float yMaxLimit = 80f;
 
+    InputAction lookAction, resetAction;
+
     // Start is called before the first frame update
     void Start()
     {
         offset = this.transform.position - player.transform.position;
-        y += 10;
+        lookAction = InputSystem.actions.FindAction("Look");
+        resetAction = InputSystem.actions.FindAction("Reset");
     }
 
-    void OnLook (InputValue lookValue)
-    {
-        Vector2 lookVector = lookValue.Get<Vector2>(); 
-        lookX = lookVector.x; 
-        lookY = -lookVector.y;
-    }
-
-    void OnReset()
-    {
+    private void OnReset() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     private void Update()
     {
-        x += lookX * xSpeed * 0.02f;
-        y -= lookY * ySpeed * 0.02f;
-
-        x += Input.GetAxis("Mouse X") * xSpeed * 0.02f;
-        y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
+        Vector2 lookValue = lookAction.ReadValue<Vector2>();
+        x += lookValue.x * xSpeed * 0.005f;
+        y -= lookValue.y * ySpeed * 0.005f;
 
         y = ClampAngle(y, yMinLimit, yMaxLimit);
 
